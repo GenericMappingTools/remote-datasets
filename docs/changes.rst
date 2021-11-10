@@ -1,2 +1,2 @@
-Changelog for GMT remote datasets
----------------------------------
+Changelog
+---------

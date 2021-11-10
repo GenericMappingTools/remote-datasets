@@ -8,3 +8,4 @@
     earth-age.rst
     earth-daynight.rst
     earth-masks.rst
+    changes.rst

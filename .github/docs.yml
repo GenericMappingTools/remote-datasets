@@ -19,7 +19,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       # Cancel previous runs that are not completed
       - name: Cancel Previous Runs
@@ -41,43 +41,9 @@ jobs:
       - name: Build the website
         run: make -C docs clean html
 
-      - name: Checkout the gh-pages branch
-        uses: actions/checkout@v2.4.0
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ref: gh-pages
-          # Checkout to this folder instead of the current one
-          path: deploy
-          # Download the entire history
-          fetch-depth: 0
-        if: github.event_name == 'push'
-
-      - name: Push the built HTML to gh-pages
-        run: |
-          # Make the new commit message. Needs to happen before cd into deploy
-          # to get the right commit hash.
-          version="stable"
-          message="Deploy ${version} from $(git rev-parse --short HEAD)"
-          cd deploy
-          # Need to have this file so that Github doesn't try to run Jekyll
-          touch .nojekyll
-          # Delete all the files and replace with our new  set
-          echo -e "\nRemoving old files from previous builds of ${version}:"
-          rm -rvf ${version}
-          echo -e "\nCopying HTML files to ${version}:"
-          cp -Rvf ../docs/_build/html/ ${version}/
-          # Stage the commit
-          git add -A .
-          echo -e "\nChanges to be applied:"
-          git status
-          # Configure git to be the GitHub Actions account
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          # Amend the same commit
-          git commit --amend --reset-author -m "$message"
-          git commit -m "$message"
-          # Make the push quiet just in case there is anything that could leak
-          # sensitive information.
-          echo -e "\nPushing changes to gh-pages."
-          git push -fq origin gh-pages 2>&1 >/dev/null
-          echo -e "\nFinished uploading generated files."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/_build/html/
         if: github.event_name == 'push'

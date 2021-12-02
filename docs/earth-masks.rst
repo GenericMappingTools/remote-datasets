@@ -1,7 +1,7 @@
 .. _earth_mask:
 
-Global Earth Mask Grids
------------------------
+Global Earth Mask
+-----------------
 
 .. figure:: /_static/GMT_earthmask.png
    :height: 888 px

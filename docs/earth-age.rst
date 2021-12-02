@@ -1,5 +1,5 @@
-Global Earth Seafloor Crustal Age Grids
----------------------------------------
+Global Earth Seafloor Crustal Age
+---------------------------------
 .. figure:: /_static/EarthByte_logo_small.png
    :align: right
    :scale: 20 %
@@ -14,7 +14,7 @@ the creation of crustal age grids since 1997 and we offer their latest version f
 remote use in GMT.
 
 Usage - Global Earth Seafloor Crustal Age Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You access a global crustal age grid by specifying the special name
 
@@ -46,7 +46,7 @@ the earth_age files being placed in an ``earth/earth_age`` sub-directory. If you
 specify a CPT, the default CPT for this data set will be used (*@age_chrons_GTS2012_2020.cpt*)
 
 Technical Information - Global Earth Seafloor Crustal Age Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the seafloor crustal age grid this means
@@ -56,6 +56,6 @@ by netCDF lossless compression and chunking.  The data are reported in Myr relat
 to the 2012 Geological Time Scale.
 
 Data References - Global Earth Seafloor Crustal Age Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Seton et al., 2020: [http://dx.doi.org/10.1029/2020GC009214].

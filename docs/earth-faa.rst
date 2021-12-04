@@ -14,6 +14,7 @@ to assess the degree of isostasy.
 `David Sandwell and colleagues <https://topex.ucsd.edu/marine_grav/mar_grav.html>`_
 have provided altimetry-based marine FAA and similar grids since 1995 and the latest versions are now
 available for remote use in GMT. Over land these grids are filled in by the EGM2008 model [Pavlis et al., 2008].
+Polar regions beyond ±80˚ are not covered and are set to NaN.
 
 Usage - Global Earth Free-Air Anomaly Grids
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

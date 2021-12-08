@@ -1,5 +1,5 @@
-Global Earth Geoid
-------------------
+EGM2008 Global Earth Geoid
+--------------------------
 .. figure:: /_static/GMT_geoidfig.jpg
    :width: 710 px
    :align: center
@@ -8,8 +8,8 @@ Geodynamics studies have an interest in the Earth's geoid.  The US National Geos
 `Office of Geomatics <https://earth-info.nga.mil>`_ provide spherical harmonics models for the geopotential.
 The latest EGM2008  [Pavlis et al., 2008] geoid model is now available for remote use in GMT.
 
-Usage - Global Earth Geoid Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage - Global Earth Geoid Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You access a global geoid grid by specifying the special name
 
@@ -40,8 +40,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_geoid files being placed in an ``earth/earth_geoid`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*turbo*)
 
-Technical Information - Global Earth Geoid Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information - Global Earth Geoid Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the geoid grid this means
@@ -49,7 +49,7 @@ we chose 0.01 m as the smallest data unit, which is well below the uncertainties
 model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking.  The data are reported in meters.
 
-Data References - Global Earth Geoid Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References - Global Earth Geoid Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Pavlis, N.K., Holmes, S.A., Kenyon, S.C. and Factor, J.K., 2012: [https://doi.org/10.1029/2011JB008916].

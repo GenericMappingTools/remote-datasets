@@ -1,5 +1,5 @@
-Global Earth Magnetic Anomaly Model
------------------------------------
+EMAG2 Global Earth Magnetic Anomaly Model
+-----------------------------------------
 .. figure:: /_static/GMT_magfig.jpg
    :width: 710 px
    :align: center
@@ -28,9 +28,9 @@ refers to the ``earth_mag4km`` version (the oceanic files are ~60% smaller):
 
 .. _tbl-earth_mag:
 
-==== ================= === =======  ==================================================
+==== ================= === =======  ==========================================
 Code Dimensions        Reg Size     Description
-==== ================= === =======  ==================================================
+==== ================= === =======  ==========================================
 01d       360 x    180 g,p   94 KB  1 arc degree global EMAG2 (2 min @ 111 km)
 30m       720 x    360 g,p  329 KB  30 arc minute global EMAG2 (2 min @ 55 km)
 20m      1080 x    540 g,p  695 KB  20 arc minute global EMAG2 (2 min @ 37 km)
@@ -41,7 +41,7 @@ Code Dimensions        Reg Size     Description
 04m      5400 x   2700 g,p   14 MB  4 arc minute global EMAG2 (2 min @ 7.5 km)
 03m      7200 x   3600 g,p   24 MB  3 arc minute global EMAG2 (2 min @ 5.6 km)
 02m     10800 x   5400   p   52 MB  2 arc minute global EMAG2 (2 min original)
-==== ================= === =======  ==================================================
+==== ================= === =======  ==========================================
 
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_mag files being placed in an ``earth/earth_mag`` sub-directory. If you do not

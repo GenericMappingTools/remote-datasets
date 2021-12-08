@@ -1,11 +1,11 @@
-Global Earth Relief
--------------------
+IGPP Global Earth Relief
+------------------------
 
 .. figure:: /_static/igpp.png
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/dem.jpg
+.. figure:: /_static/GMT_dem.jpg
    :height: 888 px
    :width: 1774 px
    :align: center
@@ -55,7 +55,7 @@ the earth_relief files being placed in an ``earth/earth_relief`` sub-directory. 
 do not specify a CPT then this dataset default to the GMT master *geo*.
 
 Technical Information - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 30s and lower resolutions are all derivatives of Scripps' SRTM15+V2.3 grid
 (Sandwell et al., 2021).  We have downsampled it via Cartesian Gaussian filtering to prevent
@@ -70,7 +70,7 @@ are available in both gridline- and pixel-registered formats except the original
 SRTM15+V2.3 (here called @earth_relief_15s) and the gridline-registered SRTM tiles.
 
 Data References - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. SRTM15+V2.3: [http://dx.doi.org/10.1002/essoar.10508279.1].
 #. SYNBATH_V1.2: [http://dx.doi.org/10.1002/essoar.10508279.1].

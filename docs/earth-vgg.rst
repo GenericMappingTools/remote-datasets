@@ -1,5 +1,5 @@
-Global Earth Vertical Gravity Gradient
---------------------------------------
+IGPP Global Earth Vertical Gravity Gradient
+-------------------------------------------
 .. figure:: /_static/igpp.png
    :align: right
    :scale: 20 %
@@ -15,8 +15,8 @@ have provided altimetry-based marine vertical gravity gradients (VGG) and simila
 available for remote use in GMT. Over land, these grids are filled in by predictions of the EGM2008 model [Pavlis et al., 2008].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 
-Usage - Global Earth Vertical Gravity Gradient Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage - Global Earth Vertical Gravity Gradient Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You access a global vertical gravity gradient (vgg) grid by specifying the special name
 
@@ -27,9 +27,9 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_vgg:
 
-==== ================= === =======  ==================================================
+==== ================= === =======  ========================================
 Code Dimensions        Reg Size     Description
-==== ================= === =======  ==================================================
+==== ================= === =======  ========================================
 01d       360 x    180 g,p   91 KB  1 arc degree global VGG (1 min @ 111 km)
 30m       720 x    360 g,p  329 KB  30 arc minute global VGG (1 min @ 55 km)
 20m      1080 x    540 g,p  731 KB  20 arc minute global VGG (1 min @ 37 km)
@@ -41,14 +41,14 @@ Code Dimensions        Reg Size     Description
 03m      7200 x   3600 g,p   29 MB  3 arc minute global VGG (1 min @ 5.6 km)
 02m     10800 x   5400 g,p   63 MB  2 arc minute global VGG (1 min @ 3.7 km)
 01m     21600 x  10800   p  236 MB  1 arc minute global VGG (1 min original)
-==== ================= === =======  ==================================================
+==== ================= === =======  ========================================
 
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_vgg files being placed in an ``earth/earth_vgg`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_vgg.cpt*)
 
-Technical Information - Global Earth Vertical Gravity Gradient Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information - Global Earth Vertical Gravity Gradient Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the VGG grid this means
@@ -56,8 +56,8 @@ we chose 1/32 = 0.03125 Eotvos  as the smallest data unit, which is well below t
 model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking.  The data are reported in Eotvos.
 
-Data References - Global Earth Vertical Gravity Gradient Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References - Global Earth Vertical Gravity Gradient Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Sandwell, D.T., Harper, H., Tozer, B. and Smith, W.H., 2019: [https://doi.org/10.1016/j.asr.2019.09.011].
 #. Pavlis, N.K., Holmes, S.A., Kenyon, S.C. and Factor, J.K., 2012: [https://doi.org/10.1029/2011JB008916].

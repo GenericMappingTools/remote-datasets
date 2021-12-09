@@ -6,6 +6,7 @@
 
     earth-relief.rst
     earth-age.rst
+    earth-gebco.rst
     earth-geoid.rst
     earth-faa.rst
     earth-vgg.rst

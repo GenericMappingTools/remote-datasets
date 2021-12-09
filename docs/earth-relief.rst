@@ -16,16 +16,16 @@ Usage - Global Earth Relief Grids
 
 You access a global relief grid by specifying the special name
 
-   @earth_relief_\ *rr*\ *u*\ [_\ *reg*\ ]
+   @earth_relief_\ [*rr*\ *u*\ [_\ *reg*\ ]]
 
 This grid only contains observed relief and inferred relief via altimetric gravity.
 A new version that uses the statistical properties of young seafloor fabric and
 directions of spreading is also available and provides more realistic relief in
 areas of young seafloor with small seamounts.  That grid can be accessed via
 
-   @earth_synbath_\ *rr*\ *u*\ [_\ *reg*\ ]
+   @earth_synbath_\ [*rr*\ *u*\ [_\ *reg*\ ]]
 
-The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
+The following codes for the optional *rr*\ *u* and *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):
 
 .. _tbl-earth_relief:
@@ -50,6 +50,7 @@ Code Dimensions        Reg Size     Description
 01s   1296000 x 432000 g     41 GB  1 arc second global relief (SRTM1S)
 ==== ================= === =======  ==================================================
 
+See XXXX for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_relief files being placed in an ``earth/earth_relief`` sub-directory.  If you
 do not specify a CPT then this dataset default to the GMT master *geo*.

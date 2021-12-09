@@ -50,7 +50,7 @@ Code Dimensions        Reg Size     Description
 01s   1296000 x 432000 g     41 GB  1 arc second global relief (SRTM1S)
 ==== ================= === =======  ==================================================
 
-See XXXX for when resolution codes are optional or required.
+See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_relief files being placed in an ``earth/earth_relief`` sub-directory.  If you
 do not specify a CPT then this dataset default to the GMT master *geo*.

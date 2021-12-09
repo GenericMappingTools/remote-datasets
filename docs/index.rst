@@ -5,8 +5,8 @@
     :caption: Remote datasets
 
     earth-relief.rst
-    earth-age.rst
     earth-gebco.rst
+    earth-age.rst
     earth-geoid.rst
     earth-faa.rst
     earth-vgg.rst

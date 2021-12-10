@@ -14,13 +14,13 @@ Usage - Global Earth Magnetic Anomaly Model Grids
 
 You access a global EMAG2 grid by specifying the special name
 
-   @earth_mag_\ *rr*\ *u*\ [_\ *reg*\ ]
+   @earth_mag_\ [*rr*\ *u*\ [_\ *reg*\ ]]
 
 This version is observed at sea level over oceanic regions and have no data over land.
 For a version where all observations are relative to an altitude of 4 km above the geoid
 and includes data over land, use instead
 
-   @earth_mag4km_\ *rr*\ *u*\ [_\ *reg*\ ]
+   @earth_mag4km_\ [*rr*\ *u*\ [_\ *reg*\ ]]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one). The sizes
@@ -43,6 +43,7 @@ Code Dimensions        Reg Size     Description
 02m     10800 x   5400   p   52 MB  2 arc minute global EMAG2 (2 min original)
 ==== ================= === =======  ==========================================
 
+See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_mag files being placed in an ``earth/earth_mag`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_mag.cpt*)

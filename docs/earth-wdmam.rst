@@ -17,7 +17,7 @@ Usage - World Digital Magnetic Anomaly Map
 
 You access a global WDMAM grid by specifying the special name
 
-   @earth_wdmam_\ *rr*\ *u*\ [_\ *reg*\ ]
+   @earth_wdmam_\ [*rr*\ *u*\ [_\ *reg*\ ]]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):
@@ -39,6 +39,7 @@ Code Dimensions        Reg Size     Description
 02m     10800 x   5400   p   52 MB  2 arc minute global WDMAM (2 min original)
 ==== ================= === =======  ==========================================
 
+See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_mag files being placed in an ``earth/earth_wdmam`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_wdmam.cpt*)

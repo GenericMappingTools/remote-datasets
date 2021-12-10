@@ -22,11 +22,11 @@ Usage - Global Earth Day/Night Images
 
 You access a global daytime image by specifying the special names
 
-   @earth_day_\ *rr*\ *u*
+   @earth_day_\ [*rr*\ *u*]
 
 Similarly for the nighttime view:
 
-   @earth_night_\ *rr*\ *u*
+   @earth_night_\ [*rr*\ *u*]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):
@@ -50,6 +50,7 @@ Code Dimensions        Size     Description
 30s     43200 x  21600  935 MB  30 arc second image view (Blue|Black Marble mosaic original)
 ==== ================= =======  ===========================================================
 
+See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these images will, when downloaded, be placed in your ~/.gmt/server director under
 the ``earth/earth_day`` and ``earth/earth_night`` sub-directories.
 

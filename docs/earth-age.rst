@@ -18,7 +18,7 @@ Usage - Global Earth Seafloor Crustal Age Grid
 
 You access a global crustal age grid by specifying the special name
 
-   @earth_age_\ *rr*\ *u*\ [_\ *reg*\ ]
+   @earth_age_\ *rr*\ [*u*\ [_\ *reg*\ ]]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):
@@ -41,6 +41,7 @@ Code Dimensions        Reg Size     Description
 01m     21600 x  10800 g,p  188 MB  1 arc minute global relief (1 min original)
 ==== ================= === =======  ==================================================
 
+See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_age files being placed in an ``earth/earth_age`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@age_chrons_GTS2012_2020.cpt*)

@@ -4,7 +4,7 @@ IGPP Global Earth Vertical Gravity Gradient
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/GMT_vggfig.jpg
+.. figure:: /_static/GMT_vgg.jpg
    :width: 710 px
    :align: center
 

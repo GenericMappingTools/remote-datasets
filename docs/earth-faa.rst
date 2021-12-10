@@ -4,7 +4,7 @@ IGPP Global Earth Free-Air Anomaly
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/GMT_faafig.jpg
+.. figure:: /_static/GMT_faa.jpg
    :width: 710 px
    :align: center
 

@@ -1,6 +1,6 @@
 EGM2008 Global Earth Geoid
 --------------------------
-.. figure:: /_static/GMT_geoidfig.jpg
+.. figure:: /_static/GMT_geoid.jpg
    :width: 710 px
    :align: center
 

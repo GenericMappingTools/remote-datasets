@@ -1,6 +1,6 @@
 WDMAM World Digital Magnetic Anomaly Map
 ----------------------------------------
-.. figure:: /_static/GMT_wdmamfig.jpg
+.. figure:: /_static/GMT_wdmam.jpg
    :width: 710 px
    :align: center
 

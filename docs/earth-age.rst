@@ -4,7 +4,7 @@ EarthByte Global Earth Seafloor Crustal Age
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/GMT_agefig.png
+.. figure:: /_static/GMT_age.png
    :width: 710 px
    :align: center
 

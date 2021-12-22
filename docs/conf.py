@@ -27,7 +27,7 @@ author = 'The GMT Team'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.autosectionlabel", "sphinx.ext.extlinks"]
+extensions = ["sphinx.ext.autosectionlabel", "sphinx.ext.extlinks", "sphinx_panels"]
 # default language to highlight source code
 highlight_language = 'bash'
 pygments_style = 'sphinx'

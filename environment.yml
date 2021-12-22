@@ -5,3 +5,6 @@ channels:
 dependencies:
     - sphinx
     - sphinx_rtd_theme
+    - pip
+    - pip:
+      - sphinx-panels

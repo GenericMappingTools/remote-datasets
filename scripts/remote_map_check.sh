@@ -4,7 +4,7 @@
 # usage: remote_map_check
 #
 # Loops over all recipies and makes global maps of them for the two resolutions
-# This checks that the tiled and single grid versions
+# This checks that the tiled and single grid versions are similar
 #
 list=(age day faa gebco gebcosi geoid mag mag4km mask night relief vgg wdmam)
 

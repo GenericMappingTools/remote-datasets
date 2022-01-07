@@ -13,3 +13,6 @@ docs/_build/
 
 # macOS
 .DS_Store
+
+# Script check png
+scripts/check_*.png

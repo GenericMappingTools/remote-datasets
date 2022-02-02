@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Remote Datasets'
-copyright = '2021, The GMT Team'
+copyright = '2021-2022, The GMT Team'
 author = 'The GMT Team'
 
 

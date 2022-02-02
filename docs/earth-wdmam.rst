@@ -35,7 +35,7 @@ Code Dimensions        Reg Size     Description
 06m      3600 x   1800 g,p  5.7 MB  6 arc minute global WDMAM (3 min @ 10 km)
 05m      4320 x   2160 g,p  9.3 MB  5 arc minute global WDMAM (3 min @ 9 km)
 04m      5400 x   2700 g,p   14 MB  4 arc minute global WDMAM (3 min @ 7.5 km)
-03m      7200 x   3600 g,p   24 MB  3 arc minute global WDMAM (3 min @ 5.6 km)
+03m      7200 x   3600 g,p   24 MB  3 arc minute global WDMAM (3 min original)
 ==== ================= === =======  ==========================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.

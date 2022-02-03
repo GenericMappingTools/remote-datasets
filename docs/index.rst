@@ -16,63 +16,126 @@ Remote Datasets
 
 
     .. toctree::
+        :maxdepth: 1
 
-       earth-age.rst
+        earth-age.rst
+
+    .. figure:: /_static/GMT_age.png
+        :align: center
+
+    .. figure:: /_static/EarthByte_logo_small.png
+        :align: right
+        :scale: 10 %
 
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-geoid.rst
 
+    .. figure:: /_static/GMT_geoid.jpg
+        :align: center
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-mag.rst
 
+    .. figure:: /_static/GMT_mag.jpg
+        :align: center
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-gebco.rst
 
+    .. figure:: /_static/GMT_gebcosi.jpg
+        :align: center
+
+    .. figure:: /_static/igpp.png
+        :align: right
+        :scale: 10 %
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-masks.rst
 
+    .. figure:: /_static/GMT_earthmask.png
+        :align: center
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-faa.rst
 
+    .. figure:: /_static/GMT_faa.jpg
+        :align: center
+
+    .. figure:: /_static/igpp.png
+        :align: right
+        :scale: 10 %
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-relief.rst
 
+    .. figure:: /_static/GMT_dem.jpg
+        :align: center
+
+    .. figure:: /_static/igpp.png
+        :align: right
+        :scale: 10 %
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-vgg.rst
 
+    .. figure:: /_static/GMT_vgg.jpg
+        :align: center
+
+    .. figure:: /_static/igpp.png
+        :align: right
+        :scale: 10 %
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-daynight.rst
 
+    .. figure:: /_static/GMT_daynight.jpg
+        :align: center
+
+    .. figure:: /_static/nasa-logo-web-rgb.png
+        :align: right
+        :scale: 10 %
+
     ---
 
     .. toctree::
+        :maxdepth: 1
 
         earth-wdmam.rst
 
+    .. figure:: /_static/GMT_wdmam.jpg
+        :align: center
 
 Reference
 ^^^^^^^^^

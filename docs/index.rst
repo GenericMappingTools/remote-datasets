@@ -1,22 +1,76 @@
-.. title:: Home
+.. title:: Remote datasets
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Remote datasets
+GMT Remote Datasets
+-------------------
 
-    earth-relief.rst
-    earth-gebco.rst
-    earth-age.rst
-    earth-geoid.rst
-    earth-faa.rst
-    earth-vgg.rst
-    earth-mag.rst
-    earth-wdmam.rst
-    earth-daynight.rst
-    earth-masks.rst
+These pages describe the remote datasets available through GMT's
+`remote file mechanism <https://docs.generic-mapping-tools.org/dev/datasets/remote-data.html>`_.
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Reference
+Information about the GMT data server and mirrors can be found on the
+`GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
-    changes.rst
+.. panels::
+
+    .. toctree::
+
+        earth-relief.rst
+
+    ---
+
+    .. toctree::
+
+        earth-gebco.rst
+
+    ---
+
+    .. toctree::
+
+       earth-age.rst
+
+    ---
+
+    .. toctree::
+
+        earth-geoid.rst
+
+    ---
+
+    .. toctree::
+
+        earth-faa.rst
+
+    ---
+
+    .. toctree::
+
+        earth-vgg.rst
+
+    ---
+
+    .. toctree::
+
+        earth-mag.rst
+
+    ---
+
+    .. toctree::
+
+        earth-wdmam.rst
+
+    ---
+
+    .. toctree::
+
+        earth-daynight.rst
+
+    ---
+
+    .. toctree::
+
+        earth-masks.rst
+
+    ---
+
+    .. toctree::
+
+        changes.rst

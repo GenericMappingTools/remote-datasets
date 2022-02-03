@@ -1,27 +1,19 @@
 .. title:: Remote datasets
 
-GMT Remote Datasets
--------------------
+GMT Remote Datasets Documentation
+---------------------------------
 
-These pages describe the remote datasets available through GMT's
+Welcome to the documentation for the remote datasets available through GMT's
 `remote file mechanism <https://docs.generic-mapping-tools.org/dev/datasets/remote-data.html>`_.
 
 Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
+Remote Datasets
+^^^^^^^^^^^^^^^
+
 .. panels::
 
-    .. toctree::
-
-        earth-relief.rst
-
-    ---
-
-    .. toctree::
-
-        earth-gebco.rst
-
-    ---
 
     .. toctree::
 
@@ -37,31 +29,13 @@ Information about the GMT data server and mirrors can be found on the
 
     .. toctree::
 
-        earth-faa.rst
-
-    ---
-
-    .. toctree::
-
-        earth-vgg.rst
-
-    ---
-
-    .. toctree::
-
         earth-mag.rst
 
     ---
 
     .. toctree::
 
-        earth-wdmam.rst
-
-    ---
-
-    .. toctree::
-
-        earth-daynight.rst
+        earth-gebco.rst
 
     ---
 
@@ -73,4 +47,35 @@ Information about the GMT data server and mirrors can be found on the
 
     .. toctree::
 
-        changes.rst
+        earth-faa.rst
+
+    ---
+
+    .. toctree::
+
+        earth-relief.rst
+
+    ---
+
+    .. toctree::
+
+        earth-vgg.rst
+
+    ---
+
+    .. toctree::
+
+        earth-daynight.rst
+
+    ---
+
+    .. toctree::
+
+        earth-wdmam.rst
+
+
+Reference
+^^^^^^^^^
+.. toctree::
+
+    changes.rst

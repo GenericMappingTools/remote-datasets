@@ -11,8 +11,8 @@ IGPP Global Earth Relief
    :align: center
    :scale: 40 %
 
-Usage - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global relief grid by specifying the special name
 
@@ -55,8 +55,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_relief files being placed in an ``earth/earth_relief`` sub-directory.  If you
 do not specify a CPT then this dataset default to the GMT master *geo*.
 
-Technical Information - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 30s and lower resolutions are all derivatives of Scripps' SRTM15+V2.3 grid
 (Sandwell et al., 2021).  We have downsampled it via Cartesian Gaussian filtering to prevent
@@ -70,8 +70,8 @@ you may use the special names @srtm_relief_03s or @srtm_relief_01s instead. Almo
 are available in both gridline- and pixel-registered formats except the original pixel-registered
 SRTM15+V2.3 (here called @earth_relief_15s) and the gridline-registered SRTM tiles.
 
-Data References - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. SRTM15+V2.3: [http://dx.doi.org/10.1002/essoar.10508279.1].
 #. SYNBATH_V1.2: [http://dx.doi.org/10.1002/essoar.10508279.1].

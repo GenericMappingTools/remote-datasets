@@ -17,8 +17,8 @@ via :gmt-docs:`grdlandmask` but they can take a long time to compute for large r
 the full GSHHG resolution, and small grid spacings. For these reasons we offer
 precalculated mask grids via the remote server mechanism.
 
-Usage - Global Earth Mask Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global mask grid by specifying the special name
 
@@ -51,8 +51,8 @@ See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for w
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the Earth mask files being placed in an ``earth/earth_mask`` sub-directory.
 
-Technical Information - Global Earth Mask Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 Given that GSHHG contains 5 levels (ocean, land, lake, island-in-lake, pond-in-island-in-lake)
 corresponding to levels 0-4, the mask grids were computed to reflect those 5 levels.  This

@@ -12,8 +12,8 @@ oceanic areas, in a comprehensive way, all over the World.
 At 3 arc-minutes, the latest WDMAM version 2 [Dyment et al., 2021] grid is now available
 for remote use in GMT.
 
-Usage - World Digital Magnetic Anomaly Map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global WDMAM grid by specifying the special name
 
@@ -43,8 +43,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_mag files being placed in an ``earth/earth_wdmam`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_wdmam.cpt*)
 
-Technical Information - World Digital Magnetic Anomaly Map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the WDMAM grid this means we chose 0.3
@@ -52,7 +52,7 @@ nTesla as the smallest data unit, which is well below the uncertainties in the m
 Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking. The data are reported in nT.
 
-Data References - World Digital Magnetic Anomaly Map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. Lesur, V., Hamoudi, M., Choi, Y., Dyment, J. and Thebault, E.,, 2016: [https://doi.org/10.1186/s40623-016-0404-6].

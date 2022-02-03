@@ -17,8 +17,8 @@ These images may be plotted with :gmt-docs:`grdimage` or :gmt-docs:`grdview` and
 by :gmt-docs:`grdmix`.  The above example mixes both images according to a day-night
 mask and adds illumination from a corresponding Earth DEM.
 
-Usage - Global Earth Day/Night Images
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global daytime image by specifying the special names
 
@@ -54,8 +54,8 @@ See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for w
 All of these images will, when downloaded, be placed in your ~/.gmt/server director under
 the ``earth/earth_day`` and ``earth/earth_night`` sub-directories.
 
-Technical Information - Global Earth Day/Night Images
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 The 01m and lower resolution images are derivatives of NASA's Blue and Black marble image mosaics.
 We have downsampled them via Cartesian Gaussian filtering to prevent aliasing while preserving
@@ -66,8 +66,8 @@ to the geotiff files on the remote server. **Note**: This data set is experiment
 format and delivery is likely to change in the future (e.g., via image tiles).  To make the
 files as small as possible we have also downgraded them from 24-bit to 8-bit indexed images.
 
-Data References - Global Earth Day/Night Images
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. Blue Marble: [https://visibleearth.nasa.gov/images/57752/blue-marble-land-surface-shallow-water-and-shaded-topography].
 #. Black Marble: [https://earthobservatory.nasa.gov/features/NightLights/page3.php].

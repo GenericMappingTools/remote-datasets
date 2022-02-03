@@ -16,7 +16,7 @@ Remote Datasets
 
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-age.rst
 
@@ -30,7 +30,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-geoid.rst
 
@@ -40,7 +40,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-mag.rst
 
@@ -50,7 +50,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-gebco.rst
 
@@ -64,7 +64,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-masks.rst
 
@@ -74,7 +74,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-faa.rst
 
@@ -88,7 +88,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-relief.rst
 
@@ -102,7 +102,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-vgg.rst
 
@@ -116,7 +116,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-daynight.rst
 
@@ -130,7 +130,7 @@ Remote Datasets
     ---
 
     .. toctree::
-        :maxdepth: 1
+        :maxdepth: 2
 
         earth-wdmam.rst
 
@@ -139,6 +139,7 @@ Remote Datasets
 
 Reference
 ^^^^^^^^^
+
 .. toctree::
 
     changes.rst

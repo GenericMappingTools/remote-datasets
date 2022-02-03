@@ -9,8 +9,8 @@ The US National Environmental Information Center
 at 2 arc-minute resolution based on satellite, ship, and airborne magnetic measurements.
 The latest EMAG2 version 3 [Meyer et al., 2017] grid is now available for remote use in GMT.
 
-Usage - Global Earth Magnetic Anomaly Model Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global EMAG2 grid by specifying the special name
 
@@ -48,8 +48,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_mag files being placed in an ``earth/earth_mag`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_mag.cpt*)
 
-Technical Information - Global Earth Magnetic Anomaly Model Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the EMAG2 grid this means
@@ -58,7 +58,7 @@ model (0.4 nT for the 4 km altitude version).  Data are scaled and shifted to fi
 short integer grid that is highly compressed by netCDF lossless compression and chunking.
 The data are reported in nT.
 
-Data References - Global Earth Magnetic Anomaly Model Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. Meyer, B., Saltus, R. and Chulliat, A., 2017: [https://doi.org/10.7289/V5H70CVX].

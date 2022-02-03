@@ -16,8 +16,8 @@ have provided altimetry-based marine FAA and similar grids since 1995 and the la
 available for remote use in GMT. Over land these grids are filled in by the EGM2008 model [Pavlis et al., 2008].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 
-Usage - Global Earth Free-Air Anomaly Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global free-air (faa) grid by specifying the special name
 
@@ -49,8 +49,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_faa files being placed in an ``earth/earth_faa`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_faa.cpt*)
 
-Technical Information - Global Earth Free-Air Anomaly Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the FAA grid this means
@@ -58,8 +58,8 @@ we chose 0.025 mGal as the smallest data unit, which is well below the uncertain
 model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking.  The data are reported in mGal.
 
-Data References - Global Earth Free-Air Anomaly Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. Sandwell, D.T., Harper, H., Tozer, B. and Smith, W.H., 2019: [https://doi.org/10.1016/j.asr.2019.09.011].
 #. Pavlis, N.K., Holmes, S.A., Kenyon, S.C. and Factor, J.K., 2012: [https://doi.org/10.1029/2011JB008916].

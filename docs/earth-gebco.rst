@@ -11,8 +11,8 @@ GEBCO Global Earth Relief
    :align: center
    :scale: 40 %
 
-Usage - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access the GEBCO global relief grid by specifying the special name
 
@@ -53,8 +53,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_relief files being placed in an ``earth/earth_relief`` sub-directory.  If you
 do not specify a CPT then this dataset default to the GMT master *geo*.
 
-Technical Information - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 30s and lower resolutions are all derivatives of GEBCO's 2021 15 arc second grids
 (GEBCO_Compilation_Group, 2020).  We have downsampled it via Cartesian Gaussian filtering to prevent
@@ -68,8 +68,8 @@ you may use the special names @srtm_relief_03s or @srtm_relief_01s instead. Almo
 are available in both gridline- and pixel-registered formats except the original pixel-registered
 GEBCO 2021 (here called @earth_gebco_15s) and the gridline-registered SRTM tiles.
 
-Data References - Global Earth Relief Grids
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. GEBCO 2021: [https://www.gebco.net/data_and_products/gridded_bathymetry_data/].
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].

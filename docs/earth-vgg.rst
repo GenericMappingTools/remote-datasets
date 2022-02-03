@@ -15,8 +15,8 @@ have provided altimetry-based marine vertical gravity gradients (VGG) and simila
 available for remote use in GMT. Over land, these grids are filled in by predictions of the EGM2008 model [Pavlis et al., 2008].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 
-Usage - Global Earth Vertical Gravity Gradient Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Usage
+~~~~~
 
 You access a global vertical gravity gradient (vgg) grid by specifying the special name
 
@@ -48,8 +48,8 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_vgg files being placed in an ``earth/earth_vgg`` sub-directory. If you do not
 specify a CPT, the default CPT for this data set will be used (*@earth_vgg.cpt*)
 
-Technical Information - Global Earth Vertical Gravity Gradient Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Technical Information
+~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the VGG grid this means
@@ -57,8 +57,8 @@ we chose 1/32 = 0.03125 Eotvos  as the smallest data unit, which is well below t
 model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking.  The data are reported in Eotvos.
 
-Data References - Global Earth Vertical Gravity Gradient Grid
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data References
+~~~~~~~~~~~~~~~
 
 #. Sandwell, D.T., Harper, H., Tozer, B. and Smith, W.H., 2019: [https://doi.org/10.1016/j.asr.2019.09.011].
 #. Pavlis, N.K., Holmes, S.A., Kenyon, S.C. and Factor, J.K., 2012: [https://doi.org/10.1029/2011JB008916].

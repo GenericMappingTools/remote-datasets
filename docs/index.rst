@@ -14,128 +14,108 @@ Remote Datasets
 
 .. panels::
 
-
+    ---
+    :img-bottom: /_static/GMT_age.png
+    
     .. toctree::
         :maxdepth: 2
 
         earth-age.rst
 
-    .. figure:: /_static/GMT_age.png
-        :align: center
-
     .. figure:: /_static/EarthByte_logo_small.png
-        :align: right
-        :scale: 10 %
+        :align: center
+        :scale: 15 %
 
     ---
+    :img-bottom: /_static/GMT_geoid.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-geoid.rst
 
-    .. figure:: /_static/GMT_geoid.jpg
-        :align: center
-
     ---
+    :img-bottom: /_static/GMT_mag.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-mag.rst
 
-    .. figure:: /_static/GMT_mag.jpg
-        :align: center
-
     ---
+    :img-bottom: /_static/GMT_gebcosi.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-gebco.rst
 
-    .. figure:: /_static/GMT_gebcosi.jpg
-        :align: center
-
     .. figure:: /_static/igpp.png
-        :align: right
-        :scale: 10 %
+        :align: center
+        :scale: 15 %
 
     ---
+    :img-bottom: /_static/GMT_earthmask.png
 
     .. toctree::
         :maxdepth: 2
 
         earth-masks.rst
 
-    .. figure:: /_static/GMT_earthmask.png
-        :align: center
-
     ---
+    :img-bottom: /_static/GMT_faa.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-faa.rst
 
-    .. figure:: /_static/GMT_faa.jpg
-        :align: center
-
     .. figure:: /_static/igpp.png
-        :align: right
-        :scale: 10 %
+        :align: center
+        :scale: 15 %
 
     ---
+    :img-bottom: /_static/GMT_dem.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-relief.rst
 
-    .. figure:: /_static/GMT_dem.jpg
-        :align: center
-
     .. figure:: /_static/igpp.png
-        :align: right
-        :scale: 10 %
+        :align: center
+        :scale: 15 %
 
     ---
+    :img-bottom: /_static/GMT_vgg.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-vgg.rst
 
-    .. figure:: /_static/GMT_vgg.jpg
-        :align: center
-
     .. figure:: /_static/igpp.png
-        :align: right
-        :scale: 10 %
+        :align: center
+        :scale: 15 %
 
     ---
+    :img-bottom: /_static/GMT_daynight.jpg
 
     .. toctree::
         :maxdepth: 2
 
         earth-daynight.rst
 
-    .. figure:: /_static/GMT_daynight.jpg
-        :align: center
-
     .. figure:: /_static/nasa-logo-web-rgb.png
-        :align: right
-        :scale: 10 %
+        :align: center
+        :scale: 15 %
 
     ---
-
+    :img-bottom: /_static/GMT_wdmam.jpg
     .. toctree::
         :maxdepth: 2
 
         earth-wdmam.rst
-
-    .. figure:: /_static/GMT_wdmam.jpg
-        :align: center
 
 Reference
 ^^^^^^^^^

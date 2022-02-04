@@ -11,9 +11,9 @@ Changelog
 - Add 'GEBCO Sub-Ice Earth Relief' (``earth_gebcosi``) [`GEBCO Compilation Group, 2021 GEBCO 2021 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].
 - Add 'IGPP Earth Free Air Gravity Anomalies v31' (``earth_faa``) [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_; `Pavlis et al., 2012 <https://doi.org/10.1029/2011JB008916>`_].
 - Add 'IGPP Earth Vertical Gravity Gradient Anomalies v31' (``earth_vgg``) [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_; `Pavlis et al., 2012 <https://doi.org/10.1029/2011JB008916>`_].
-- Add 'SYNBATH Earth Relief' (``earth_synbath``) [`Sandwell et al., 2021 <http://dx.doi.org/10.1002/essoar.10508279.1>`_].
+- Add 'SYNBATH Earth Relief' (``earth_synbath``) [`Sandwell et al., 2022 <http://dx.doi.org/10.1002/essoar.10508279.1>`_].
 - Add 'WDMAM Earth Magnetic Anomalies' (``earth_wdmam``) [`Lesur et al., 2016 <https://doi.org/10.1186/s40623-016-0404-6>`_].
-- Update ``earth_relief`` source from SRTM15+V2.1 to SRTM15+V2.3 [`Sandwell et al., 2021 <http://dx.doi.org/10.1002/essoar.10508279.1>`_].
+- Update ``earth_relief`` source from SRTM15+V2.1 to SRTM15+V2.3 [`Sandwell et al., 2022 <http://dx.doi.org/10.1002/essoar.10508279.1>`_].
 - Update name of ``earth_age`` from 'Earth Seafloor Crustal Age Models' to 'EarthByte Earth Seafloor Age'.
 - Update name of ``earth_mask`` from 'Earth Masks for ocean/land/lake/island/pond' to 'GSHHG Earth Mask'.
 - Update name of ``earth_relief`` from 'Earth Digital Elevation Models' to 'IGPP Global Earth Relief'.

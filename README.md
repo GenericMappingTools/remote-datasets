@@ -1,5 +1,7 @@
 # Documentation for GMT remote datasets
 
+[![Docs](https://github.com/GenericMappingTools/remote-datasets/actions/workflows/docs.yml/badge.svg)](https://github.com/GenericMappingTools/remote-datasets/actions/workflows/docs.yml)
+
 This repository contains the sphinx source files for building the documentation
 for the remote datasets on the GMT server.
 

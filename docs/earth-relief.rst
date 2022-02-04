@@ -59,7 +59,7 @@ Technical Information - Global Earth Relief Grids
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 30s and lower resolutions are all derivatives of Scripps' SRTM15+V2.3 grid
-(Sandwell et al., 2021).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Sandwell et al., 2022).  We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 15 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. The 3 and 1 arc second data
 are the SRTM 1x1 degree tiles from NASA.  **Note**: The 3 and 1 arc second grids only extend

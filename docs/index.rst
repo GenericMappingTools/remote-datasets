@@ -9,113 +9,136 @@ Welcome to the documentation for the remote datasets available through GMT's
 Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
+
 Remote Datasets
 ^^^^^^^^^^^^^^^
 
-.. panels::
+.. grid:: 1 2 2 2
+    :gutter: 4 4 3 3
 
-    ---
-    :img-bottom: /_static/GMT_age.png
-    
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-age
+        :link-type: doc
+        :img-bottom: /_static/GMT_age.png
 
-        earth-age.rst
+        .. toctree::
+            :maxdepth: 1
 
-    .. figure:: /_static/EarthByte_logo_small.png
-        :align: center
-        :scale: 15 %
+            earth-age.rst
 
-    ---
-    :img-bottom: /_static/GMT_geoid.jpg
+        .. figure:: /_static/EarthByte_logo_small.png
+            :align: center
+            :scale: 15 %
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-geoid
+        :link-type: doc
+        :img-bottom: /_static/GMT_geoid.jpg
 
-        earth-geoid.rst
+        .. toctree::
+            :maxdepth: 1
 
-    ---
-    :img-bottom: /_static/GMT_mag.jpg
+            earth-geoid.rst
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-mag
+        :link-type: doc
+        :img-bottom: /_static/GMT_mag.jpg
 
-        earth-mag.rst
+        .. toctree::
+            :maxdepth: 1
 
-    ---
-    :img-bottom: /_static/GMT_gebcosi.jpg
+            earth-mag.rst
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-gebco
+        :link-type: doc
+        :img-bottom: /_static/GMT_gebcosi.jpg
 
-        earth-gebco.rst
+        .. toctree::
+            :maxdepth: 1
 
-    .. figure:: /_static/igpp.png
-        :align: center
-        :scale: 15 %
+            earth-gebco.rst
 
-    ---
-    :img-bottom: /_static/GMT_earthmask.png
+        .. figure:: /_static/igpp.png
+            :align: center
+            :scale: 15 %
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-masks
+        :link-type: doc
+        :img-bottom: /_static/GMT_earthmask.png
 
-        earth-masks.rst
+        .. toctree::
+            :maxdepth: 1
 
-    ---
-    :img-bottom: /_static/GMT_faa.jpg
+            earth-masks.rst
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-faa
+        :link-type: doc
+        :img-bottom: /_static/GMT_faa.jpg
 
-        earth-faa.rst
+        .. toctree::
+            :maxdepth: 1
 
-    .. figure:: /_static/igpp.png
-        :align: center
-        :scale: 15 %
+            earth-faa.rst
 
-    ---
-    :img-bottom: /_static/GMT_dem.jpg
+        .. figure:: /_static/igpp.png
+            :align: center
+            :scale: 15 %
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_dem.jpg
 
-        earth-relief.rst
+        .. toctree::
+            :maxdepth: 1
 
-    .. figure:: /_static/igpp.png
-        :align: center
-        :scale: 15 %
+            earth-relief.rst
 
-    ---
-    :img-bottom: /_static/GMT_vgg.jpg
+        .. figure:: /_static/igpp.png
+            :align: center
+            :scale: 15 %
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-vgg
+        :link-type: doc
+        :img-bottom: /_static/GMT_vgg.jpg
 
-        earth-vgg.rst
+        .. toctree::
+            :maxdepth: 1
 
-    .. figure:: /_static/igpp.png
-        :align: center
-        :scale: 15 %
+            earth-vgg.rst
 
-    ---
-    :img-bottom: /_static/GMT_daynight.jpg
+        .. figure:: /_static/igpp.png
+            :align: center
+            :scale: 15 %
 
-    .. toctree::
-        :maxdepth: 2
+    .. grid-item-card::
+        :link: earth-daynight
+        :link-type: doc
+        :img-bottom: /_static/GMT_daynight.jpg
 
-        earth-daynight.rst
+        .. toctree::
+            :maxdepth: 1
 
-    .. figure:: /_static/nasa-logo-web-rgb.png
-        :align: center
-        :scale: 15 %
+            earth-daynight.rst
 
-    ---
-    :img-bottom: /_static/GMT_wdmam.jpg
-    .. toctree::
-        :maxdepth: 2
+        .. figure:: /_static/nasa-logo-web-rgb.png
+            :align: center
+            :scale: 15 %
 
-        earth-wdmam.rst
+    .. grid-item-card::
+        :link: earth-wdmam
+        :link-type: doc
+        :img-bottom: /_static/GMT_wdmam.jpg
+
+        .. toctree::
+            :maxdepth: 1
+
+            earth-wdmam.rst
 
 Reference
 ^^^^^^^^^

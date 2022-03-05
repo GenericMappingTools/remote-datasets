@@ -14,13 +14,13 @@ Usage
 
 You access a global EMAG2 grid by specifying the special name
 
-   @earth_mag_\ [*rr*\ *u*\ [_\ *reg*\ ]]
+   @earth_mag[_\ *rru*\ [_\ *reg*\ ]]
 
 This version is observed at sea level over oceanic regions and have no data over land.
 For a version where all observations are relative to an altitude of 4 km above the geoid
 and includes data over land, use instead
 
-   @earth_mag4km_\ [*rr*\ *u*\ [_\ *reg*\ ]]
+   @earth_mag4km[_\ *rru*\ [_\ *reg*\ ]]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one). The sizes

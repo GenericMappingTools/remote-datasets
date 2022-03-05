@@ -22,7 +22,7 @@ Usage
 
 You access a global mask grid by specifying the special name
 
-   @earth_mask_\ [*rr*\ *u*\ [_\ *reg*\ ]]
+    @earth_mask[_\ *rru*\ [_\ *reg*\ ]]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):

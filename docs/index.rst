@@ -26,10 +26,6 @@ Remote Datasets
 
             earth-age.rst
 
-        .. figure:: /_static/EarthByte_logo_small.png
-            :align: center
-            :scale: 15 %
-
     .. grid-item-card::
         :link: earth-geoid
         :link-type: doc
@@ -60,10 +56,6 @@ Remote Datasets
 
             earth-gebco.rst
 
-        .. figure:: /_static/igpp.png
-            :align: center
-            :scale: 15 %
-
     .. grid-item-card::
         :link: earth-masks
         :link-type: doc
@@ -84,10 +76,6 @@ Remote Datasets
 
             earth-faa.rst
 
-        .. figure:: /_static/igpp.png
-            :align: center
-            :scale: 15 %
-
     .. grid-item-card::
         :link: earth-relief
         :link-type: doc
@@ -97,10 +85,6 @@ Remote Datasets
             :maxdepth: 1
 
             earth-relief.rst
-
-        .. figure:: /_static/igpp.png
-            :align: center
-            :scale: 15 %
 
     .. grid-item-card::
         :link: earth-vgg
@@ -112,10 +96,6 @@ Remote Datasets
 
             earth-vgg.rst
 
-        .. figure:: /_static/igpp.png
-            :align: center
-            :scale: 15 %
-
     .. grid-item-card::
         :link: earth-daynight
         :link-type: doc
@@ -125,10 +105,6 @@ Remote Datasets
             :maxdepth: 1
 
             earth-daynight.rst
-
-        .. figure:: /_static/nasa-logo-web-rgb.png
-            :align: center
-            :scale: 15 %
 
     .. grid-item-card::
         :link: earth-wdmam

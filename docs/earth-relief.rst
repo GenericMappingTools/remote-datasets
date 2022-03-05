@@ -75,7 +75,7 @@ SRTM15+V2.3 (here called @earth_relief_15s) and the gridline-registered SRTM til
 Data References
 ~~~~~~~~~~~~~~~
 
-#. SRTM15+V2.3: [http://dx.doi.org/10.1002/essoar.10508279.1].
-#. SYNBATH_V1.2: [http://dx.doi.org/10.1002/essoar.10508279.1].
+#. SRTM15+V2.3: [https://doi.org/10.1029/2021EA002069].
+#. SYNBATH_V1.2: [https://doi.org/10.1029/2021EA002069].
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].
 #. SRTMGL1 tiles: [https://lpdaac.usgs.gov/products/srtmgl1v003].

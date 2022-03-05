@@ -22,11 +22,11 @@ Usage
 
 You access a global daytime image by specifying the special names
 
-   @earth_day_\ [*rr*\ *u*]
+   @earth_day[_\ *rru*]
 
 Similarly for the nighttime view:
 
-   @earth_night_\ [*rr*\ *u*]
+   @earth_night[_\ *rru*]
 
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):

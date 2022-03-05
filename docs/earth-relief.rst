@@ -16,14 +16,14 @@ Usage
 
 You access a global relief grid by specifying the special name
 
-   @earth_relief_\ [*rr*\ *u*\ [_\ *reg*\ ]]
+   @earth_relief[_\ *rru*\ [_\ *reg*\ ]]
 
 This grid only contains observed relief and inferred relief via altimetric gravity.
 A new version that uses the statistical properties of young seafloor fabric and
 directions of spreading is also available and provides more realistic relief in
 areas of young seafloor with small seamounts.  That grid can be accessed via
 
-   @earth_synbath_\ [*rr*\ *u*\ [_\ *reg*\ ]]
+   @earth_synbath[_\ *rru*\ [_\ *reg*\ ]]
 
 The following codes for the optional *rr*\ *u* and *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):

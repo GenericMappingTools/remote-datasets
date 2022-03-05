@@ -54,7 +54,7 @@ extlinks = {
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'sticky_navigation': False,
-    'includehidden': False,
+    'includehidden': True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

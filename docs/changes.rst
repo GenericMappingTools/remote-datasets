@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+2022-03-22
+^^^^^^^^^^
+
+- Update ``earth_relief`` source from SRTM15+V2.3 to SRTM15+V2.4 [`Tozer et al., 2019 <https://doi.org/10.1029/2019EA000658>`_].
+
 2022-01-28
 ^^^^^^^^^^
 

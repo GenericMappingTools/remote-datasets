@@ -28,8 +28,7 @@ Similarly for the nighttime view:
 
    @earth_night[_\ *rru*]
 
-The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
-for pixel-registered grids; gridline-registered grids increment dimensions by one):
+The following codes for *rr*\ *u* are supported:
 
 .. _tbl-earth_daynight:
 

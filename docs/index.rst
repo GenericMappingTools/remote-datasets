@@ -37,7 +37,7 @@ Remote Datasets
         :img-bottom: /_static/GMT_gebcosi.jpg
 
     .. grid-item-card:: GSHHG Global Earth Mask
-        :link: earth-masks
+        :link: earth-mask
         :link-type: doc
         :img-bottom: /_static/GMT_earthmask.png
 
@@ -74,7 +74,7 @@ Remote Datasets
    earth-geoid
    earth-mag
    earth-relief
-   earth-masks
+   earth-mask
    earth-faa
    earth-gebco
    earth-vgg

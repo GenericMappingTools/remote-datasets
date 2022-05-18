@@ -52,8 +52,9 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
-the earth_relief files being placed in an ``earth/earth_relief`` sub-directory.  If you
-do not specify a CPT then this dataset default to the GMT master *geo*.
+the earth_gebco files being placed in an ``earth/earth_gebco`` sub-directory,
+and earth_gebcosi files in an ``earth/earth_gebcosi`` sub-directory. If you
+do not specify a CPT then the default CPT (the GMT master *geo* CPT) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

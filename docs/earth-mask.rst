@@ -43,8 +43,8 @@ Code Dimensions        Reg Size     Description
 03m      7200 x   3600 g,p  209 KB  3 arc minute global mask (skip features < 31 km^2)
 02m     10800 x   5400 g,p  393 KB  2 arc minute global mask (skip features < 14 km^2)
 01m     21600 x  10800 g,p  998 KB  1 arc minute global mask (skip features < 3 km^2)
-30s     43200 x  21600 g,p  2.6 MB  30 arc second global  mask (skip features < 1 km^2)
-15s     86400 x  43200 g,p  7.5 MB  15 arc second global (all features)
+30s     43200 x  21600 g,p  2.6 MB  30 arc second global mask (skip features < 1 km^2)
+15s     86400 x  43200 g,p  7.5 MB  15 arc second global mask (all features)
 ==== ================= === =======  =====================================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.

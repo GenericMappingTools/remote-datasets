@@ -46,7 +46,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_age files being placed in an ``earth/earth_age`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*@earth_age.cpt*).
+specify a CPT, the default CPT for this dataset (*@earth_age.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

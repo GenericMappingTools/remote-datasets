@@ -6,7 +6,7 @@ EGM2008 Global Earth Geoid
 
 Geodynamics studies have an interest in the Earth's geoid.  The US National Geospatial-Intelligence Agency's
 `Office of Geomatics <https://earth-info.nga.mil>`_ provide spherical harmonics models for the geopotential.
-The latest EGM2008  [Pavlis et al., 2008] geoid model is now available for remote use in GMT.
+The latest EGM2008 [Pavlis et al., 2012] geoid model is now available for remote use in GMT.
 
 Usage
 ~~~~~
@@ -41,7 +41,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_geoid files being placed in an ``earth/earth_geoid`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*turbo*)
+specify a CPT, the default CPT for this dataset (the GMT master *turbo* CPT) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

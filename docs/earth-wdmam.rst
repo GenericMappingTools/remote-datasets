@@ -43,7 +43,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_mag files being placed in an ``earth/earth_wdmam`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*@earth_wdmam.cpt*)
+specify a CPT, the default CPT for this dataset (*@earth_wdmam.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
@@ -57,4 +57,4 @@ by netCDF lossless compression and chunking. The data are reported in nT.
 Data References
 ~~~~~~~~~~~~~~~
 
-#. Lesur, V., Hamoudi, M., Choi, Y., Dyment, J. and Thebault, E.,, 2016: [https://doi.org/10.1186/s40623-016-0404-6].
+#. Lesur, V., Hamoudi, M., Choi, Y., Dyment, J. and Thebault, E., 2016: [https://doi.org/10.1186/s40623-016-0404-6].

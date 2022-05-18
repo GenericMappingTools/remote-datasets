@@ -13,7 +13,7 @@ gravity field and are often used in conjunctions with bathymetric or topographic
 to assess the degree of isostasy.
 `David Sandwell and colleagues <https://topex.ucsd.edu/marine_grav/mar_grav.html>`_
 have provided altimetry-based marine FAA and similar grids since 1995 and the latest versions are now
-available for remote use in GMT. Over land these grids are filled in by the EGM2008 model [Pavlis et al., 2008].
+available for remote use in GMT. Over land these grids are filled in by the EGM2008 model [Pavlis et al., 2012].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 
 Usage
@@ -49,7 +49,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_faa files being placed in an ``earth/earth_faa`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*@earth_faa.cpt*)
+specify a CPT, the default CPT for this dataset (*@earth_faa.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

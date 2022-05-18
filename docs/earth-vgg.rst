@@ -12,7 +12,7 @@ Marine geophysicists and in particular researchers of plate tectonics have an in
 gravity field as such anomalies may highlight smaller-scale features, such as seafloor tectonic scars and seamounts.
 `David Sandwell and colleagues <https://topex.ucsd.edu/marine_grav/mar_grav.html>`_
 have provided altimetry-based marine vertical gravity gradients (VGG) and similar grids since 1995 and the latest versions are now
-available for remote use in GMT. Over land, these grids are filled in by predictions of the EGM2008 model [Pavlis et al., 2008].
+available for remote use in GMT. Over land, these grids are filled in by predictions of the EGM2008 model [Pavlis et al., 2012].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 
 Usage
@@ -48,7 +48,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_vgg files being placed in an ``earth/earth_vgg`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*@earth_vgg.cpt*)
+specify a CPT, the default CPT for this dataset (*@earth_vgg.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

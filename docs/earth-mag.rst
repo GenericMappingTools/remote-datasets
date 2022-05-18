@@ -47,8 +47,9 @@ refers to the ``earth_mag4km`` version (the oceanic files are ~60% smaller):
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
-the earth_mag files being placed in an ``earth/earth_mag`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*@earth_mag.cpt*)
+the earth_mag files being placed in an ``earth/earth_mag`` sub-directory and
+the earth_mag4km files in an ``earth/earth_mag4km`` sub-directory. If you do not
+specify a CPT, the default CPT for this dataset (*@earth_mag.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

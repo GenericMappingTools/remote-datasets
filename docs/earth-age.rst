@@ -46,14 +46,14 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_age files being placed in an ``earth/earth_age`` sub-directory. If you do not
-specify a CPT, the default CPT for this data set will be used (*@earth_age.cpt*).
+specify a CPT, the default CPT for this dataset (*@earth_age.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible.  For the seafloor crustal age grid this means
-we chose 0.01 My as the smallest data unit, which is well below the uncertainties in the
+we chose 0.01 Myr as the smallest data unit, which is well below the uncertainties in the
 model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking.  The data are reported in Myr relative
 to the 2012 Geological Time Scale.

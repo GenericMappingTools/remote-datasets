@@ -55,8 +55,16 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 Given that GSHHG contains 5 levels (ocean, land, lake, island-in-lake, pond-in-island-in-lake)
-corresponding to levels 0-4, the mask grids were computed to reflect those 5 levels.  This
-means that if you only want a mask for the ocean or one for wet versus dry, you will need to
+corresponding to levels 0-4, the mask grids were computed to reflect those 5 levels. Thus, the
+node values in the mask grids are all in the 0-4 range and have these meanings:
+
+    0. Oceanic areas beyond the shoreline
+    1. Land areas inside the shoreline
+    2. Lakes inside the land areas
+    3. Islands in lakes in the land areas
+    4. Smaller lakes in islands that are found within lakes inside the land area
+
+This means that if you only want a mask for the ocean or one for wet versus dry, you will need to
 run a simple :gmt-docs:`grdmath` command to adjust the mask for your use.  We give some common
 examples here.  To create a gridline-registered mask that is 0 in the ocean and 1 everywhere
 else (even in lakes, etc.), try::

@@ -52,7 +52,7 @@ The following codes for *rr*\ *u* are supported:
   ==== ================= =======  ===========================================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
-All of these images will, when downloaded, be placed in your ~/.gmt/server director under
+All of these images will, when downloaded, be placed in your ~/.gmt/server directory under
 the ``earth/earth_day`` and ``earth/earth_night`` sub-directories.
 
 Technical Information

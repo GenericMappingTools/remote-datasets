@@ -35,7 +35,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   04m*     5400 x   2700 g,p   11 MB  4 arc minute global EGM2008 geoid (1 min @ 7.5 km)
   03m*     7200 x   3600 g,p   20 MB  3 arc minute global EGM2008 geoid (1 min @ 5.6 km)
   02m*    10800 x   5400 g,p   34 MB  2 arc minute global EGM2008 geoid (1 min @ 3.7 km)
-  01m*    21600 x  10800   p  100 MB  1 arc minute global EGM2008 geoid (1 min original)
+  01m*    21600 x  10800   g  100 MB  1 arc minute global EGM2008 geoid (1 min original)
   ==== ================= === =======  ==================================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.

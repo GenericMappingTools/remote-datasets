@@ -21,7 +21,7 @@ You access the GEBCO global relief grid by specifying the special name
 This grid only contains observed relief and inferred relief via altimetric gravity.
 A second grid that gives sub-ice (si) elevations is also available and can be accessed via
 
-   @earth_geocosi[_\ *rru*\ [_\ *reg*\ ]]
+   @earth_gebcosi[_\ *rru*\ [_\ *reg*\ ]]
 
 and is the one displayed above.  The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):

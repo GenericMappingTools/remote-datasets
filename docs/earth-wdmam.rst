@@ -9,7 +9,7 @@ scientific project under the auspices of IAGA (International Association of Geom
 and Aeronomy) and CGMW (Commission for the Geological Map of the World), aiming to compile
 and make available magnetic anomalies caused by the Earth lithosphere, on continental and
 oceanic areas, in a comprehensive way, all over the World.
-At 3 arc-minutes, the latest WDMAM version 2 [Dyment et al., 2021] grid is now available
+At 3 arc-minutes, the latest WDMAM version 2 [Lesur et al., 2016] grid is now available
 for remote use in GMT.
 
 Usage

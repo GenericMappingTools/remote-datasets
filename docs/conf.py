@@ -13,13 +13,14 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from datetime import date
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'Remote Datasets'
-copyright = '2021-2023, The GMT Team'
 author = 'The GMT Team'
+copyright = f'2021-{date.today().year}, {author}'
 
 
 # -- General configuration ---------------------------------------------------

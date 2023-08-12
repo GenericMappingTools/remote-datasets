@@ -1,5 +1,5 @@
-WDMAM World Digital Magnetic Anomaly Map
-----------------------------------------
+WDMAM World Digital Magnetic Anomaly Map v. 2.1
+-----------------------------------------------
 .. figure:: /_static/GMT_wdmam.jpg
    :width: 710 px
    :align: center
@@ -9,7 +9,7 @@ scientific project under the auspices of IAGA (International Association of Geom
 and Aeronomy) and CGMW (Commission for the Geological Map of the World), aiming to compile
 and make available magnetic anomalies caused by the Earth lithosphere, on continental and
 oceanic areas, in a comprehensive way, all over the World.
-At 3 arc-minutes, the latest WDMAM version 2 [Lesur et al., 2016] grid is now available
+At 3 arc-minutes, the latest WDMAM version 2.1 [Choi et al., 2023] grid is now available
 for remote use in GMT.
 
 Usage
@@ -49,7 +49,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the WDMAM grid this means we chose 0.3
+from the servers are as fast as possible.  For the WDMAM grid this means we chose 0.2
 nTesla as the smallest data unit, which is well below the uncertainties in the model.
 Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking. The data are reported in nT.
@@ -57,4 +57,9 @@ by netCDF lossless compression and chunking. The data are reported in nT.
 Data References
 ~~~~~~~~~~~~~~~
 
-#. Lesur, V., Hamoudi, M., Choi, Y., Dyment, J. and Thebault, E., 2016: [https://doi.org/10.1186/s40623-016-0404-6].
+#. Choi, Y., Dyment, J., Lesur, V., Garcia Reyes, Catalan, M., Ishihara, T., Litvinova, T., Hamoudi, M., the WDMAM 
+Task Force*, and the WDMAM Data Providers**, World Digital Magnetic Anomaly Map version 2.1, map available at http://www.wdmam.org/.
+
+* the WDMAM Task Force: J. Dyment (chair), M. Catalan (co-chair), A. de Santis, M. Hamoudi, T. Ishihara, J. Korhonen, V. Lesur, 
+T. Litvinova, J. Luis, B. Meyer, P. Milligan, M. Nakanishi, S. Okuma, M. Pilkington, M. Purucker, D. Ravat, E. Thébault. (alphabetical order)
+** the WDMAM Evaluators: C. Gaina, J. Luis, S. Maus, B. Meyer, M. Nakanishi, M. Purucker, Y. Quesnel, R. Saltus, P. Taylor. (alphabetical order)

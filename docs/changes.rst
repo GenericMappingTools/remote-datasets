@@ -4,7 +4,7 @@ Changelog
 2023-08-11
 ^^^^^^^^^^
 
-- Update ``earth_wdmam`` source from version 2.0 to 2.1 [`Choi et al., 2023`_].
+- ``earth_wdmam``: Update dataset source from version 2.0 to 2.1 [`Choi et al., 2023`_].
 
 2022-04-01
 ^^^^^^^^^^

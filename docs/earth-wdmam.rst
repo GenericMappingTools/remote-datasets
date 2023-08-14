@@ -1,5 +1,5 @@
-WDMAM World Digital Magnetic Anomaly Map v. 2.1
------------------------------------------------
+WDMAM World Digital Magnetic Anomaly Map
+----------------------------------------
 .. figure:: /_static/GMT_wdmam.jpg
    :width: 710 px
    :align: center

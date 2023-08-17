@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2023-08-xx
+2023-08-17
 ^^^^^^^^^^
 
 - ``earth_faa``: Update dataset source from version 31 to 32.

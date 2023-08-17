@@ -57,7 +57,9 @@ by netCDF lossless compression and chunking. The data are reported in nT.
 Data References
 ~~~~~~~~~~~~~~~
 
-#. Choi, Y., Dyment, J., Lesur, V., Garcia Reyes, Catalan, M., Ishihara, T., Litvinova, T., Hamoudi, M., the WDMAM 
-Task Force*, and the WDMAM Data Providers**, World Digital Magnetic Anomaly Map version 2.1, map available at http://www.wdmam.org/.
-#. The WDMAM Task Force: J. Dyment (chair), M. Catalan (co-chair), A. de Santis, M. Hamoudi, T. Ishihara, J. Korhonen, V. Lesur, T. Litvinova, J. Luis, B. Meyer, P. Milligan, M. Nakanishi, S. Okuma, M. Pilkington, M. Purucker, D. Ravat, E. Thébault. (alphabetical order)
-#. The WDMAM Evaluators: C. Gaina, J. Luis, S. Maus, B. Meyer, M. Nakanishi, M. Purucker, Y. Quesnel, R. Saltus, P. Taylor. (alphabetical order)
+#. Choi, Y., Dyment, J., Lesur, V., Garcia Reyes, Catalan, M., Ishihara, T., Litvinova, T., Hamoudi, M.,
+   the WDMAM Task Force*, and the WDMAM Data Providers**, World Digital Magnetic Anomaly Map version 2.1, map available at http://www.wdmam.org/.
+
+  \* The WDMAM Task Force: J. Dyment (chair), M. Catalan (co-chair), A. de Santis, M. Hamoudi, T. Ishihara, J. Korhonen, V. Lesur, T. Litvinova, J. Luis, B. Meyer, P. Milligan, M. Nakanishi, S. Okuma, M. Pilkington, M. Purucker, D. Ravat, E. Thébault. (alphabetical order)
+
+  \*\* The WDMAM Evaluators: C. Gaina, J. Luis, S. Maus, B. Meyer, M. Nakanishi, M. Purucker, Y. Quesnel, R. Saltus, P. Taylor. (alphabetical order)

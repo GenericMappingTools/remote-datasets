@@ -11,7 +11,7 @@ IGPP Global Earth Vertical Gravity Gradient
 Marine geophysicists and in particular researchers of plate tectonics have an interest in derivatives of the Earth's
 gravity field as such anomalies may highlight smaller-scale features, such as seafloor tectonic scars and seamounts.
 `David Sandwell and colleagues <https://topex.ucsd.edu/marine_grav/mar_grav.html>`_
-have provided altimetry-based marine vertical gravity gradients (VGG) and similar grids since 1995. The latest version 32 are now
+have provided altimetry-based marine vertical gravity gradients (VGG) and similar grids since 1995. The latest version 32 is now
 available for remote use in GMT. Over land, these grids are filled in by predictions of the EGM2008 model [Pavlis et al., 2012].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 

@@ -1,6 +1,12 @@
 Changelog
 ---------
 
+2023-08-17
+^^^^^^^^^^
+
+- ``earth_faa``: Update dataset source from version 31 to 32.
+- ``earth_vgg``: Update dataset source from version 31 to 32.
+
 2023-08-15
 ^^^^^^^^^^
 

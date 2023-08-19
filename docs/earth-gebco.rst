@@ -74,6 +74,6 @@ GEBCO 2023 (here called @earth_gebco_15s) and the gridline-registered SRTM tiles
 Data References
 ~~~~~~~~~~~~~~~
 
-#. GEBCO Compilation Group (2023) GEBCO 2023 Grid (doi:10.5285/f98b053b-0cbc-6c23-e053-6c86abc0af7b)
+#. GEBCO Compilation Group (2023) GEBCO 2023 Grid (https://doi.org/10.5285/f98b053b-0cbc-6c23-e053-6c86abc0af7b)
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].
 #. SRTMGL1 tiles: [https://lpdaac.usgs.gov/products/srtmgl1v003].

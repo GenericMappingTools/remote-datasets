@@ -4,7 +4,7 @@ Changelog
 2023-08-19
 ^^^^^^^^^^
 
-- ``earth_synbath``: Update dataset source from version 2.1 to 2.0.
+- ``earth_synbath``: Update dataset source from version 1.2 to 2.0.
 
 2023-08-17
 ^^^^^^^^^^

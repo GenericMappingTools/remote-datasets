@@ -5,6 +5,9 @@ Changelog
 ^^^^^^^^^^
 
 - ``earth_synbath``: Update dataset source from version 1.2 to 2.0.
+- ``earth_gebco``: Update dataset source from version 2021 to 2023.[`GEBCO Compilation Group, 2023, GEBCO 2023 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].
+- ``earth_gebcosi``: Update dataset source from version 2021 to 2023.[`GEBCO Compilation Group, 2023, GEBCO 2023 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].
+
 
 2023-08-17
 ^^^^^^^^^^

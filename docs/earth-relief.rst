@@ -77,6 +77,6 @@ Data References
 ~~~~~~~~~~~~~~~
 
 #. SRTM15+V2.4: [https://doi.org/10.1029/2019EA000658].
-#. SYNBATH_V1.2: [https://doi.org/10.1029/2021EA002069].
+#. SYNBATH_V2.0: [https://doi.org/10.1029/2021EA002069].
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].
 #. SRTMGL1 tiles: [https://lpdaac.usgs.gov/products/srtmgl1v003].

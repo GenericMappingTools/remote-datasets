@@ -61,4 +61,4 @@ to the 2012 Geological Time Scale.
 Data References
 ~~~~~~~~~~~~~~~
 
-#. Seton et al., 2020: [http://dx.doi.org/10.1029/2020GC009214].
+#. Seton et al., 2020: [https://doi.org/10.1029/2020GC009214].

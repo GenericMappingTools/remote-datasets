@@ -41,9 +41,9 @@ Changelog
 - ``earth_gebcosi``: Add new dataset 'GEBCO Sub-Ice Earth Relief' [`GEBCO Compilation Group, 2021 GEBCO 2021 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].
 - ``earth_faa``: Add new dataset 'IGPP Earth Free Air Gravity Anomalies v31' [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_; `Pavlis et al., 2012 <https://doi.org/10.1029/2011JB008916>`_].
 - ``earth_vgg``: Add new dataset 'IGPP Earth Vertical Gravity Gradient Anomalies v31' [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_; `Pavlis et al., 2012 <https://doi.org/10.1029/2011JB008916>`_].
-- ``earth_synbath``: Add new dataset 'SYNBATH Earth Relief' [`Sandwell et al., 2022 <http://dx.doi.org/10.1002/essoar.10508279.1>`_].
+- ``earth_synbath``: Add new dataset 'SYNBATH Earth Relief' [`Sandwell et al., 2022 <https://doi.org/10.1002/essoar.10508279.1>`_].
 - ``earth_wdmam``: Add new dataset 'WDMAM Earth Magnetic Anomalies' [`Lesur et al., 2016 <https://doi.org/10.1186/s40623-016-0404-6>`_].
-- ``earth_relief``: Update dataset source from SRTM15+V2.1 to SRTM15+V2.3 [`Sandwell et al., 2022 <http://dx.doi.org/10.1002/essoar.10508279.1>`_].
+- ``earth_relief``: Update dataset source from SRTM15+V2.1 to SRTM15+V2.3 [`Sandwell et al., 2022 <https://doi.org/10.1002/essoar.10508279.1>`_].
 - ``earth_age``: Update dataset name from 'Earth Seafloor Crustal Age Models' to 'EarthByte Earth Seafloor Age'.
 - ``earth_mask``: Update dataset name from 'Earth Masks for ocean/land/lake/island/pond' to 'GSHHG Earth Mask'.
 - ``earth_relief``: Update dataset name from 'Earth Digital Elevation Models' to 'IGPP Global Earth Relief'.

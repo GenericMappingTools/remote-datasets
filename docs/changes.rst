@@ -1,6 +1,12 @@
 Changelog
 ---------
 
+2023-08-24
+^^^^^^^^^^
+
+- ``earth_relief``: Update dataset source from 2.4 to 2.5.5.
+
+
 2023-08-19
 ^^^^^^^^^^
 

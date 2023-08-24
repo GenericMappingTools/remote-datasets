@@ -28,7 +28,9 @@ Similarly for the nighttime view:
 
    @earth_night[_\ *rru*]
 
-The following codes for *rr*\ *u* are supported:
+The following codes for *rr*\ *u* are supported. The sizes refers to the earth_day version 
+(the earth_night ranges from 33% smaller for the highest resolution up to 44% bigger for 
+the lowest resolution)::
 
 .. _tbl-earth_daynight:
 
@@ -37,18 +39,18 @@ The following codes for *rr*\ *u* are supported:
   ==== ================= =======  ===========================================================
   Code Dimensions        Size     Description
   ==== ================= =======  ===========================================================
-  01d       360 x    180  128 KB  1 arc degree image view (Blue|Black Marble mosaic @ 111 km)
-  30m       720 x    360  435 KB  30 arc minute image view (Blue|Black Marble mosaic @ 55 km)
-  20m      1080 x    540  918 KB  20 arc minute image view (Blue|Black Marble mosaic @ 37 km)
-  15m      1440 x    720  1.6 MB  15 arc minute image view (Blue|Black Marble mosaic @ 28 km)
-  10m      2160 x   1080  3.4 MB  10 arc minute image view (Blue|Black Marble mosaic @ 18 km)
-  06m      3600 x   1800  8.8 MB  6 arc minute image view (Blue|Black Marble mosaic @ 10 km)
-  05m      4320 x   2160   13 MB  5 arc minute image view (Blue|Black Marble mosaic @ 9 km)
-  04m      5400 x   2700   19 MB  4 arc minute image view (Blue|Black Marble mosaic @ 7.5 km)
-  03m      7200 x   3600   33 MB  3 arc minute image view (Blue|Black Marble mosaic @ 5.6 km)
-  02m     10800 x   5400   71 MB  2 arc minute image view (Blue|Black Marble mosaic @ 3.7 km)
-  01m     21600 x  10800  258 MB  1 arc minute image view (Blue|Black Marble mosaic @ 1.9 km)
-  30s     43200 x  21600  935 MB  30 arc second image view (Blue|Black Marble mosaic original)
+  01d       360 x    180   44 KB  1 arc degree image view (Blue|Black Marble mosaic @ 111 km)
+  30m       720 x    360  139 KB  30 arc minute image view (Blue|Black Marble mosaic @ 55 km)
+  20m      1080 x    540  283 KB  20 arc minute image view (Blue|Black Marble mosaic @ 37 km)
+  15m      1440 x    720  479 KB  15 arc minute image view (Blue|Black Marble mosaic @ 28 km)
+  10m      2160 x   1080  967 KB  10 arc minute image view (Blue|Black Marble mosaic @ 18 km)
+  06m      3600 x   1800  2.5 MB  6 arc minute image view (Blue|Black Marble mosaic @ 10 km)
+  05m      4320 x   2160  3.9 MB  5 arc minute image view (Blue|Black Marble mosaic @ 9 km)
+  04m      5400 x   2700  5.3 MB  4 arc minute image view (Blue|Black Marble mosaic @ 7.5 km)
+  03m      7200 x   3600  8.3 MB  3 arc minute image view (Blue|Black Marble mosaic @ 5.6 km)
+  02m     10800 x   5400   18 MB  2 arc minute image view (Blue|Black Marble mosaic @ 3.7 km)
+  01m     21600 x  10800   60 MB  1 arc minute image view (Blue|Black Marble mosaic @ 1.9 km)
+  30s     43200 x  21600  219 MB  30 arc second image view (Blue|Black Marble mosaic original)
   ==== ================= =======  ===========================================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.

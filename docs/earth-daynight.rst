@@ -28,9 +28,9 @@ Similarly for the nighttime view:
 
    @earth_night[_\ *rru*]
 
-The following codes for *rr*\ *u* are supported. The sizes refers to the earth_day version 
-(the earth_night ranges from 33% smaller for the highest resolution up to 44% bigger for 
-the lowest resolution)::
+The following codes for *rr*\ *u* are supported. The sizes refers to the earth_day version
+(the earth_night ranges from 33% smaller for the highest resolution up to 44% bigger for
+the lowest resolution):
 
 .. _tbl-earth_daynight:
 

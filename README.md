@@ -11,6 +11,7 @@ sets are still in test mode make sure you set GMT_DATA_SERVER to test.
 
 Run:
 
+    cd scripts
     make docs
 
 ## Updating static images used by docs
@@ -23,6 +24,7 @@ Run:
 
 ## Run all test scripts
 
+    cd scripts
     make all-tests
 
 ## License

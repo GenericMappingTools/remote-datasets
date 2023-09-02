@@ -13,7 +13,7 @@ help::
 #!docs         : Make the RST->HTML documentation
 #!
 
-all-tests:	remote_map_earth_check.sh remote_map_planets_check.sh
+all-tests:	earth planets
 
 earth:	remote_map_earth_check.sh
 	bash remote_map_earth_check.sh
@@ -22,4 +22,4 @@ planets:	remote_map_planets_check.sh
 	bash remote_map_planets_check.sh
 
 docs:
-	(cd docs; make)
+	(cd ../docs; make html)

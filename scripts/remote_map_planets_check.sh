@@ -1,7 +1,7 @@
 #!/bin/bash -e
 # remote_map_planets_check.sh - Make global planet test maps for both 05m and 06m resolutions
 #
-# usage: remote_map_planets_check
+# usage: bash remote_map_planets_check.sh
 #
 # Loops over all recipes and makes global maps of them for the two resolutions
 # This checks that the tiled and single grid versions are similar.  We use the

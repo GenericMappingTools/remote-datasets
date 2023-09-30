@@ -7,7 +7,7 @@
 # This checks that the tiled and single grid versions are similar.  We use the
 # candidate server which must pass all tests before overwriting oceania.
 #
-list=(age day faa gebco gebcosi geoid mag mag4km mask night relief synbath vgg wdmam)
+list=(age day edefl faa faaerror gebco gebcosi geoid mag mag4km mask ndefl night relief synbath vgg wdmam)
 
 gmt set GMT_DATA_SERVER candidate
 for set in ${list[@]}; do

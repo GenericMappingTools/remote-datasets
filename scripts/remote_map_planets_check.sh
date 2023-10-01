@@ -13,11 +13,11 @@ type=(relief relief  relief relief relief)
 gmt set GMT_DATA_SERVER candidate
 for set in ${list[@]}; do
 	gmt begin check_${set} png
-		gmt subplot begin 2x1 -Fs15c/12c -Rg -JH15c -A -T"Planet ${set}"
+		gmt subplot begin 2x1 -Fs15c/12c -Rd -JH15c -A -T"Planet ${set}"
 		gmt subplot set 0 -A"6m"
-		gmt grdimage @${set}_${type}_06m -Rg
+		gmt grdimage @${set}_${type}_06m -Rd
 		gmt subplot set 1 -A"5m"
-		gmt grdimage @${set}_${type}_05m -Rg
+		gmt grdimage @${set}_${type}_05m -Rd
 		gmt subplot end
 	gmt end show
 done

@@ -12,11 +12,11 @@ list=(age day edefl faa faaerror gebco gebcosi geoid mag mag4km mask mss ndefl n
 gmt set GMT_DATA_SERVER candidate
 for set in ${list[@]}; do
 	gmt begin check_${set} png
-		gmt subplot begin 2x1 -Fs15c/12c -Rg -JH15c -A -T"earth_${set}"
+		gmt subplot begin 2x1 -Fs15c/12c -Rd -JH15c -A -T"earth_${set}"
 		gmt subplot set 0 -A"6m"
-		gmt grdimage @earth_${set}_06m -Rg
+		gmt grdimage @earth_${set}_06m -Rd
 		gmt subplot set 1 -A"5m"
-		gmt grdimage @earth_${set}_05m -Rg
+		gmt grdimage @earth_${set}_05m -Rd
 		gmt subplot end
 	gmt end show
 done

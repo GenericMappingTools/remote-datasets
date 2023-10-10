@@ -5,7 +5,7 @@
 This repository contains the sphinx source files for building the documentation
 for the remote datasets on the GMT server as well as some test scripts. The test
 scripts assumes that the data files have been placed on the host server.  If data
-sets are still in test mode make sure you set GMT_DATA_SERVER to candidate.
+sets are still in pre-release mode make sure you set GMT_DATA_SERVER to candidate.
 
 ## Building the site
 

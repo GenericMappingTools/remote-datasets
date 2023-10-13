@@ -2,7 +2,7 @@
 #
 # Plot the earth masks
 
-gmt begin GMT_earthmask png
+gmt begin GMT_earth_mask png
 	gmt set GMT_THEME cookbook GMT_DATA_SERVER candidate
 	gmt makecpt -Clightblue,burlywood,blue,red,white -T-0.5/4.5/1 -N
 	gmt grdimage @earth_mask_05m -JQ0/15c
@@ -16,4 +16,4 @@ gmt begin GMT_earthmask png
 	EOF
 gmt end
 
-mv GMT_earthmask.png ../docs/_static
+mv GMT_earth_mask.png ../docs/_static

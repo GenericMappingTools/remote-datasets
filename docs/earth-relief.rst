@@ -5,7 +5,7 @@ IGPP Global Earth Relief
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/GMT_dem.jpg
+.. figure:: /_static/GMT_relief.jpg
    :height: 888 px
    :width: 1774 px
    :align: center

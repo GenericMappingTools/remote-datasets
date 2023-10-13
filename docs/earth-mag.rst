@@ -1,6 +1,6 @@
 EMAG2 Global Earth Magnetic Anomaly Model
 -----------------------------------------
-.. figure:: /_static/GMT_mag.jpg
+.. figure:: /_static/GMT_earth_mag4km.jpg
    :width: 710 px
    :align: center
 
@@ -55,9 +55,9 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the EMAG2 grid this means
+from the servers are as fast as possible. For the EMAG2 grid this means
 we chose 0.2 nTesla as the smallest data unit, which is well below the uncertainties in the
-model (0.4 nT for the 4 km altitude version).  Data are scaled and shifted to fit in a
+model (0.4 nT for the 4 km altitude version). Data are scaled and shifted to fit in a
 short integer grid that is highly compressed by netCDF lossless compression and chunking.
 The data are reported in nT.
 

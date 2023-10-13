@@ -1,6 +1,6 @@
 EMAG2 Global Earth Magnetic Anomaly Model
 -----------------------------------------
-.. figure:: /_static/GMT_mag4km.jpg
+.. figure:: /_static/GMT_earth_mag4km.jpg
    :width: 710 px
    :align: center
 

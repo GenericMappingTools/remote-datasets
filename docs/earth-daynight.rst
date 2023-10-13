@@ -4,7 +4,7 @@ NASA Global Earth Day/Night Images
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/GMT_daynight.jpg
+.. figure:: /_static/GMT_earth_daynight.jpg
    :height: 888 px
    :width: 1774 px
    :align: center

@@ -19,8 +19,8 @@ Run:
 Run:
 
     cd scripts
-    bash GMT_agefig.sh
-    bash GMT_earthmask.sh
+    bash GMT_earth_age.sh
+    bash GMT_earth_mask.sh
 
 ## Run all test scripts
 

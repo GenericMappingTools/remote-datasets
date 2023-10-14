@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-#
 # Plot the earth masks
-
 gmt begin GMT_earth_mask png
 	gmt set GMT_THEME cookbook GMT_DATA_SERVER candidate
 	gmt makecpt -Clightblue,burlywood,blue,red,white -T-0.5/4.5/1 -N

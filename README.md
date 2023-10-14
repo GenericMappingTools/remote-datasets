@@ -21,6 +21,7 @@ Run:
     cd scripts
     bash GMT_earth_age.sh
     bash GMT_earth_mask.sh
+    bash GMT_earth_maps.sh
 
 ## Run all test scripts
 

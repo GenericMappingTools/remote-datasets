@@ -5,7 +5,7 @@ gmt begin GMT_earth_daynight jpg
     gmt grdmath -Rd -I10m -r $(gmt solar -C -o0:1 -I+d2000-06-22T24:00+z-10) 2 DAYNIGHT = w.grd
     gmt grdgradient @earth_relief_10m_p -Nt0.5 -A45 -Gintens.grd
     gmt grdmix @earth_day_10m @earth_night_10m -Ww.grd -Iintens.grd -Gview.tif
-    gmt grdimage view.tif -JQ0/15c
+    gmt grdimage view.tif -JQ0/7.5c
     rm -f w.grd intens.grd view.tif
 gmt end
 

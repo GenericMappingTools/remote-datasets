@@ -7,6 +7,8 @@ gmt begin GMT_earth_daynight jpg
     gmt grdmix @earth_day_10m @earth_night_10m -Ww.grd -Iintens.grd -Gview.tif
     gmt grdimage view.tif -JQ0/7.5c
     rm -f w.grd intens.grd view.tif
+    gmt psconvert -A -P -E150 -FGMT_earth_daynight_thumbnail -Tj
 gmt end
 
 mv GMT_earth_daynight.jpg ../docs/_static
+mv GMT_earth_daynight_thumbnail.jpg ../docs/_static/

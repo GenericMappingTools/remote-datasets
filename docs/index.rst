@@ -10,61 +10,58 @@ Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
 
-Remote Datasets
-^^^^^^^^^^^^^^^
-
-.. grid:: 1 2 2 2
+.. grid:: 1 2 3 3
     :gutter: 4 4 3 3
 
-    .. grid-item-card:: EarthByte Global Earth Seafloor Crustal Age
+    .. grid-item-card:: EarthByte Earth Seafloor Crustal Age
         :link: earth-age
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_age.png
+        :img-bottom: /_static/GMT_earth_age_thumbnail.png
 
-    .. grid-item-card:: EGM2008 Global Earth Geoid
+    .. grid-item-card:: EGM2008 Earth Geoid
         :link: earth-geoid
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_geoid.jpg
+        :img-bottom: /_static/GMT_earth_geoid_thumbnail.jpg
 
-    .. grid-item-card:: EMAG2 Global Earth Magnetic Anomaly Model
+    .. grid-item-card:: EMAG2 Earth Magnetic Anomaly Model
         :link: earth-mag
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mag4km.jpg
+        :img-bottom: /_static/GMT_earth_mag4km_thumbnail.jpg
 
-    .. grid-item-card:: GEBCO Global Earth Relief
+    .. grid-item-card:: GEBCO Earth Relief
         :link: earth-gebco
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_gebcosi.jpg
+        :img-bottom: /_static/GMT_earth_gebcosi_thumbnail.jpg
 
-    .. grid-item-card:: GSHHG Global Earth Mask
+    .. grid-item-card:: GSHHG Earth Mask
         :link: earth-mask
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mask.png
+        :img-bottom: /_static/GMT_earth_mask_thumbnail.png
 
-    .. grid-item-card:: IGPP Global Earth Free-Air Anomaly
+    .. grid-item-card:: IGPP Earth Free-Air Anomaly
         :link: earth-faa
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_faa.jpg
+        :img-bottom: /_static/GMT_earth_faa_thumbnail.jpg
 
-    .. grid-item-card:: IGPP Global Earth Relief
+    .. grid-item-card:: IGPP Earth Relief
         :link: earth-relief
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_relief.jpg
+        :img-bottom: /_static/GMT_earth_relief_thumbnail.jpg
 
-    .. grid-item-card:: IGPP Global Earth Vertical Gravity Gradient
+    .. grid-item-card:: IGPP Earth Vertical Gravity Gradient
         :link: earth-vgg
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_vgg.jpg
+        :img-bottom: /_static/GMT_earth_vgg_thumbnail.jpg
 
-    .. grid-item-card:: NASA Global Earth Day/Night Images
+    .. grid-item-card:: NASA Earth Day/Night Images
         :link: earth-daynight
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_daynight.jpg
+        :img-bottom: /_static/GMT_earth_daynight_thumbnail.jpg
 
     .. grid-item-card:: WDMAM World Digital Magnetic Anomaly Map
         :link: earth-wdmam
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_wdmam.jpg
+        :img-bottom: /_static/GMT_earth_wdmam_thumbnail.jpg
 
 .. toctree::
    :hidden:

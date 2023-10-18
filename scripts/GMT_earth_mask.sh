@@ -12,6 +12,8 @@ gmt begin GMT_earth_mask png
 	S - s 0.5c red 0.25p - Island [3]
 	S - s 0.5c white 0.25p - Pond [4]
 	EOF
+    gmt psconvert -A -P -E150 -FGMT_earth_mask_thumbnail -Tg
 gmt end
 
 mv GMT_earth_mask.png ../docs/_static
+mv GMT_earth_mask_thumbnail.png ../docs/_static/

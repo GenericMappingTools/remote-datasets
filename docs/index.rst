@@ -13,7 +13,7 @@ Information about the GMT data server and mirrors can be found on the
 Remote Datasets
 ^^^^^^^^^^^^^^^
 
-.. grid:: 1 2 2 2
+.. grid:: 1 2 3 3
     :gutter: 4 4 3 3
 
     .. grid-item-card:: EarthByte Global Earth Seafloor Crustal Age

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Makes maps for every dataset in list for docs/earth-"set".rst
 
-list=(faa gebcosi geoid mag4km relief vgg wdmam)
+list=(faa gebcosi geoid mag4km mss relief vgg wdmam)
 
 gmt set GMT_DATA_SERVER candidate
 for set in ${list[@]}; do

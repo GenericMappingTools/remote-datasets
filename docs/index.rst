@@ -10,9 +10,6 @@ Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
 
-Remote Datasets
-^^^^^^^^^^^^^^^
-
 .. grid:: 1 2 3 3
     :gutter: 4 4 3 3
 

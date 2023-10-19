@@ -1,5 +1,5 @@
 IGPP Earth Relief
-------------------------
+-----------------
 
 .. figure:: /_static/igpp.png
    :align: right

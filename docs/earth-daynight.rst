@@ -1,5 +1,5 @@
-NASA Global Earth Day/Night Images
-----------------------------------
+NASA Earth Day/Night Images
+---------------------------
 .. figure:: /_static/nasa-logo-web-rgb.png
    :align: right
    :scale: 20 %

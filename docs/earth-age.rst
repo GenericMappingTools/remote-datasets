@@ -1,5 +1,5 @@
-EarthByte Global Earth Seafloor Crustal Age
--------------------------------------------
+EarthByte Earth Seafloor Crustal Age
+------------------------------------
 .. figure:: /_static/EarthByte_logo_small.png
    :align: right
    :scale: 20 %

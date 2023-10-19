@@ -1,6 +1,6 @@
 .. _earth_mask:
 
-GSHHG Global Earth Mask
+GSHHG Earth Mask
 -----------------------
 
 .. figure:: /_static/GMT_earth_mask.png

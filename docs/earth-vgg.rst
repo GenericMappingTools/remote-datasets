@@ -1,4 +1,4 @@
-IGPP Global Earth Vertical Gravity Gradient
+IGPP Earth Vertical Gravity Gradient
 -------------------------------------------
 .. figure:: /_static/igpp.png
    :align: right

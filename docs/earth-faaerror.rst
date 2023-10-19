@@ -1,4 +1,4 @@
-IGPP Global Earth Free-Air Anomaly Errors
+IGPP Earth Free-Air Anomaly Errors
 -----------------------------------------
 .. figure:: /_static/igpp.png
    :align: right

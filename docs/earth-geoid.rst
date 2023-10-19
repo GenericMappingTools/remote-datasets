@@ -1,4 +1,4 @@
-EGM2008 Global Earth Geoid
+EGM2008 Earth Geoid
 --------------------------
 .. figure:: /_static/GMT_earth_geoid.jpg
    :width: 710 px

@@ -1,4 +1,4 @@
-GEBCO Global Earth Relief
+GEBCO Earth Relief
 -------------------------
 
 .. figure:: /_static/igpp.png

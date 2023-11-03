@@ -28,7 +28,7 @@ refers to the ``earth_mag4km`` version (the oceanic files are ~60% smaller):
 
 .. _tbl-earth_mag:
 
-.. table:: EMAG2 Global Earth Magnetic Anomaly Model.
+.. table:: EMAG2 Earth Magnetic Anomaly Model.
 
   ==== ================= === =======  ========================================== =====
   Code Dimensions        Reg Size     Description                                Tiled

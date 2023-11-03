@@ -30,7 +30,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_relief:
 
-.. table:: IGPP Global Earth Relief.
+.. table:: IGPP Earth Relief.
 
   ==== ================= === =======  ==================================================== =====
   Code Dimensions        Reg Size     Description                                          Tiled

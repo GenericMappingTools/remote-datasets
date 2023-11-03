@@ -20,7 +20,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_geoid:
 
-.. table:: EGM2008 Global Earth Geoid.
+.. table:: EGM2008 Earth Geoid.
 
   ==== ================= === =======  ================================================== =====
   Code Dimensions        Reg Size     Description                                        Tiled

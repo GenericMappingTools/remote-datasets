@@ -49,6 +49,12 @@ Information about the GMT data server and mirrors can be found on the
         :img-bottom: /_static/GMT_earth_faa_thumbnail.jpg
         :text-align: center
 
+    .. grid-item-card:: IGPP Earth Free-Air Anomaly Error
+        :link: earth-faaerrors
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_faaerrors_thumbnail.jpg
+        :text-align: center
+
     .. grid-item-card:: IGPP Earth Relief
         :link: earth-relief
         :link-type: doc

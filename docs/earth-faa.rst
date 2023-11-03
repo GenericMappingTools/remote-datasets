@@ -28,7 +28,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_faa:
 
-.. table:: IGPP Global Earth Free-Air Anomaly.
+.. table:: IGPP Earth Free-Air Anomaly.
 
   ==== ================= === =======  ======================================== =====
   Code Dimensions        Reg Size     Description                              Tiled

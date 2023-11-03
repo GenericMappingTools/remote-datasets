@@ -28,27 +28,27 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_gebco:
 
-.. table:: GEBCO Global Earth Relief. An asterisk denotes tiled datasets.
+.. table:: GEBCO Global Earth Relief.
 
-  ==== ================= === =======  ================================================
-  Code Dimensions        Reg Size     Description
-  ==== ================= === =======  ================================================
-  01d       360 x    180 g,p  114 KB  1 arc degree global relief (GEBCO 2023 @ 111 km)
-  30m       720 x    360 g,p  395 KB  30 arc minute global relief (GEBCO 2023 @ 55 km)
-  20m      1080 x    540 g,p  832 KB  20 arc minute global relief (GEBCO 2023 @ 37 km)
-  15m      1440 x    720 g,p  1.4 MB  15 arc minute global relief (GEBCO 2023 @ 28 km)
-  10m      2160 x   1080 g,p  3.0 MB  10 arc minute global relief (GEBCO 2023 @ 18 km)
-  06m      3600 x   1800 g,p  8.0 MB  6 arc minute global relief (GEBCO 2023 @ 10 km)
-  05m*     4320 x   2160 g,p   11 MB  5 arc minute global relief (GEBCO 2023 @ 9 km)
-  04m*     5400 x   2700 g,p   17 MB  4 arc minute global relief (GEBCO 2023 @ 7.5 km)
-  03m*     7200 x   3600 g,p   30 MB  3 arc minute global relief (GEBCO 2023 @ 5.6 km)
-  02m*    10800 x   5400 g,p   65 MB  2 arc minute global relief (GEBCO 2023 @ 3.7 km)
-  01m*    21600 x  10800 g,p  237 MB  1 arc minute global relief (GEBCO 2023 @ 1.9 km)
-  30s*    43200 x  21600 g,p  864 MB  30 arc second global relief (GEBCO 2023 @ 1.0 km)
-  15s*    86400 x  43200 p    2.9 GB  15 arc second global relief (GEBCO 2023)
-  03s*   432000 x 216000 g    6.8 GB  3 arc second global relief (SRTM3S)
-  01s*  1296000 x 432000 g     41 GB  1 arc second global relief (SRTM1S)
-  ==== ================= === =======  ================================================
+  ==== ================= === =======  ================================================= =====
+  Code Dimensions        Reg Size     Description                                       Tiled
+  ==== ================= === =======  ================================================= =====
+  01d       360 x    180 g,p  114 KB  1 arc degree global relief (GEBCO 2023 @ 111 km)  No
+  30m       720 x    360 g,p  395 KB  30 arc minute global relief (GEBCO 2023 @ 55 km)  No
+  20m      1080 x    540 g,p  832 KB  20 arc minute global relief (GEBCO 2023 @ 37 km)  No
+  15m      1440 x    720 g,p  1.4 MB  15 arc minute global relief (GEBCO 2023 @ 28 km)  No
+  10m      2160 x   1080 g,p  3.0 MB  10 arc minute global relief (GEBCO 2023 @ 18 km)  No
+  06m      3600 x   1800 g,p  8.0 MB  6 arc minute global relief (GEBCO 2023 @ 10 km)   No
+  05m      4320 x   2160 g,p   11 MB  5 arc minute global relief (GEBCO 2023 @ 9 km)    Yes
+  04m      5400 x   2700 g,p   17 MB  4 arc minute global relief (GEBCO 2023 @ 7.5 km)  Yes
+  03m      7200 x   3600 g,p   30 MB  3 arc minute global relief (GEBCO 2023 @ 5.6 km)  Yes
+  02m     10800 x   5400 g,p   65 MB  2 arc minute global relief (GEBCO 2023 @ 3.7 km)  Yes
+  01m     21600 x  10800 g,p  237 MB  1 arc minute global relief (GEBCO 2023 @ 1.9 km)  Yes
+  30s     43200 x  21600 g,p  864 MB  30 arc second global relief (GEBCO 2023 @ 1.0 km) Yes
+  15s     86400 x  43200 p    2.9 GB  15 arc second global relief (GEBCO 2023)          Yes
+  03s    432000 x 216000 g    6.8 GB  3 arc second global relief (SRTM3S)               Yes
+  01s   1296000 x 432000 g     41 GB  1 arc second global relief (SRTM1S)               Yes
+  ==== ================= === =======  ================================================= =====
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with

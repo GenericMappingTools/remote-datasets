@@ -27,7 +27,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_vgg:
 
-.. table:: IGPP Global Earth Vertical Gravity Gradient.
+.. table:: IGPP Earth Vertical Gravity Gradient.
 
   ==== ================= === =======  ======================================== =====
   Code Dimensions        Reg Size     Description                              Tiled

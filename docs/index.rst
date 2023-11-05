@@ -148,6 +148,7 @@ Information about the GMT data server and mirrors can be found on the
    earth-mask
    earth-mdt
    earth-mss
+   earth-ndefl
    earth-relief
    earth-vgg
    earth-wdmam

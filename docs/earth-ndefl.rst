@@ -1,5 +1,5 @@
 IGPP Earth South-North Deflections
---------------------------------
+----------------------------------
 .. figure:: /_static/igpp.png
    :align: right
    :scale: 20 %

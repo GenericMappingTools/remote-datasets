@@ -1,5 +1,5 @@
 NASA Venus Relief
-----------------
+-----------------
 
 .. figure:: /_static/igpp.png
    :align: right

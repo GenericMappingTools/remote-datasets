@@ -8,7 +8,7 @@ CNES Earth Mean Sea Surface
    :width: 710 px
    :align: center
 
-Geodynamics studies have an interest in the Earth's Mean Sea Surface (MSS).  CNES has
+Geodynamics studies have an interest in the Earth's Mean Sea Surface (MSS). CNES has
 provided such a grid post-processed by IGPP (Sandwell_et_al., 2022).
 
 Usage
@@ -50,10 +50,10 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the MSS grid this means
+from the servers are as fast as possible. For the MSS grid this means
 we chose 0.01 m as the smallest data unit, which is well below the uncertainties in the
-model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking.  The data are reported in meters.
+model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
+by netCDF lossless compression and chunking. The data are reported in meters.
 
 Data References
 ~~~~~~~~~~~~~~~

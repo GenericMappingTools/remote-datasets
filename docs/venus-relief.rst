@@ -51,7 +51,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 02m and lower resolutions are all derivatives of USGS' 1 arc-minute Sandwell_Final_Topo_Venus_2012_meter.grd
-(Sandwell, 2012).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Sandwell, 2012). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 12.1468873601 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
 are available in both gridline- and pixel-registered formats except the original pixel-registered

@@ -54,7 +54,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 15s and lower resolutions are all derivatives of USGS' 14.0625 arc-second Lunar_LRO_LOLA_Global_LDEM_118m_Mar2014.tif
-(Mazarico_et_al., 2013).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Mazarico_et_al., 2013). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 14.0625 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
 are available in both gridline- and pixel-registered formats except the original pixel-registered

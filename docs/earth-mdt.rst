@@ -8,7 +8,7 @@ CNES Earth Mean Dynamic Topography
    :width: 710 px
    :align: center
 
-Geodynamics studies have an interest in the Earth's Mean Dynamic Topography (MDT).  CNES has
+Geodynamics studies have an interest in the Earth's Mean Dynamic Topography (MDT). CNES has
 provided such a grid (Jousset_et_al., 2022) post-processed by IGPP.
 
 Usage
@@ -44,13 +44,13 @@ specify a CPT, the default CPT for this dataset (the GMT master *@earth_mdt* CPT
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
-As you see, the 10m and lower resolutions are all derivatives of the original 7.4 arc-minute mdt_cnes_cls22_fg.nc grid
+As you see, the 10m and lower resolutions are all derivatives of the original 7.5 arc-minute mdt_cnes_cls22_fg.nc grid
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  We have downsampled it via Cartesian Gaussian filtering to prevent
+from the servers are as fast as possible. We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 7.5 arc-minute grid. For the MDT grid this means
 we chose 0.0001 m as the smallest data unit, which is well below the uncertainties in the
-model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking.  The data are reported in meters.
+model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
+by netCDF lossless compression and chunking. The data are reported in meters.
 
 Data References
 ~~~~~~~~~~~~~~~

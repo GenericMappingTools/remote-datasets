@@ -52,7 +52,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 01m and lower resolutions are all derivatives of USGS' 56.25 arc-second Mercury_Messenger_USGS_DEM_Global_665m_v2.tif
-(Becker_et_al.,_2016).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Becker_et_al.,_2016). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 56.25 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
 are available in both gridline- and pixel-registered formats except the original pixel-registered

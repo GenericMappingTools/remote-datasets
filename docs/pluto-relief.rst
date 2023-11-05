@@ -52,7 +52,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 01m and lower resolutions are all derivatives of USGS' 52.0732883317 arc-second Pluto_NewHorizons_Global_DEM_300m_Jul2017_16bit.tif
-(Moore_et_al., 2016).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Moore_et_al., 2016). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 52.0732883317 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
 are available in both gridline- and pixel-registered formats except the original pixel-registered

@@ -54,10 +54,10 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the VGG grid this means
+from the servers are as fast as possible. For the VGG grid this means
 we chose 1/32 = 0.03125 Eotvos  as the smallest data unit, which is well below the uncertainties in the
-model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking.  The data are reported in Eotvos.
+model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
+by netCDF lossless compression and chunking. The data are reported in Eotvos.
 
 Data References
 ~~~~~~~~~~~~~~~

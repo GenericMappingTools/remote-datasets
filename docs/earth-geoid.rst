@@ -4,7 +4,7 @@ EGM2008 Earth Geoid
    :width: 710 px
    :align: center
 
-Geodynamics studies have an interest in the Earth's geoid.  The US National Geospatial-Intelligence Agency's
+Geodynamics studies have an interest in the Earth's geoid. The US National Geospatial-Intelligence Agency's
 `Office of Geomatics <https://earth-info.nga.mil>`_ provide spherical harmonics models for the geopotential.
 The latest EGM2008 [Pavlis et al., 2012] geoid model is now available for remote use in GMT.
 
@@ -47,10 +47,10 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the geoid grid this means
+from the servers are as fast as possible. For the geoid grid this means
 we chose 0.01 m as the smallest data unit, which is well below the uncertainties in the
-model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking.  The data are reported in meters.
+model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
+by netCDF lossless compression and chunking. The data are reported in meters.
 
 Data References
 ~~~~~~~~~~~~~~~

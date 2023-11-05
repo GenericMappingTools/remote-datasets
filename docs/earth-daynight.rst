@@ -12,9 +12,9 @@ NASA Earth Day/Night Images
 
 We serve two NASA image products: The Blue and Black marble mosaics.
 We have filtered and down-ampled those as well at the same resolutions that are
-available for the Earth DEMs.  However, all images are pixel-registered only.
+available for the Earth DEMs. However, all images are pixel-registered only.
 These images may be plotted with :gmt-docs:`grdimage` or :gmt-docs:`grdview` and manipulated
-by :gmt-docs:`grdmix`.  The above example mixes both images according to a day-night
+by :gmt-docs:`grdmix`. The above example mixes both images according to a day-night
 mask and adds illumination from a corresponding Earth DEM.
 
 Usage
@@ -66,7 +66,7 @@ the latitude-dependent resolution in the original images. The full (6 sigma) fil
 indicated in parenthesis.
 The dimensions above reflect the number of nodes covered by the global images and the sizes refer
 to the geotiff "day" files on the remote server. **Note**: This data set is experimental and the
-format and delivery is likely to change in the future (e.g., via image tiles).  To make the
+format and delivery is likely to change in the future (e.g., via image tiles). To make the
 files as small as possible we have also downgraded them from 24-bit to 8-bit indexed images.
 
 Data References

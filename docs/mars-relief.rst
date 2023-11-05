@@ -54,7 +54,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 01m and lower resolutions are all derivatives of USGS' 12.1468873601 arc-second Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.tif
-(Neumann_et_al., 2003).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Neumann_et_al., 2003). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 12.1468873601 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
 are available in both gridline- and pixel-registered formats except the original pixel-registered

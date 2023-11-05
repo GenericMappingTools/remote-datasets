@@ -56,10 +56,10 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the NDEFL grid this means
+from the servers are as fast as possible. For the NDEFL grid this means
 we chose 1/32 micro-radians as the smallest data unit, which is well below the uncertainties in the
-model.  Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking.  The data are reported in micro-radians.
+model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
+by netCDF lossless compression and chunking. The data are reported in micro-radians.
 
 Data References
 ~~~~~~~~~~~~~~~

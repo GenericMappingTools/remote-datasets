@@ -49,7 +49,7 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 We scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible.  For the WDMAM grid this means we chose 0.2
+from the servers are as fast as possible. For the WDMAM grid this means we chose 0.2
 nTesla as the smallest data unit, which is well below the uncertainties in the model.
 Data are scaled and shifted to fit in a short integer grid that is highly compressed
 by netCDF lossless compression and chunking. The data are reported in nT.

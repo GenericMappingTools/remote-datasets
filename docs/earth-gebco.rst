@@ -23,7 +23,7 @@ A second grid that gives sub-ice (si) elevations is also available and can be ac
 
    @earth_gebcosi[_\ *rru*\ [_\ *reg*\ ]]
 
-and is the one displayed above.  The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
+and is the one displayed above. The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):
 
 .. _tbl-earth_gebco:
@@ -60,11 +60,11 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 30s and lower resolutions are all derivatives of GEBCO's 2023 15 arc second grids
-(GEBCO_Compilation_Group, 2023).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(GEBCO_Compilation_Group, 2023). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 15 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. The 3 and 1 arc second data
-are the SRTM 1x1 degree tiles from NASA.  **Note**: The 3 and 1 arc second grids only extend
-to latitudes ±60˚ and are only available over land.  When these grids are accessed as
+are the SRTM 1x1 degree tiles from NASA. **Note**: The 3 and 1 arc second grids only extend
+to latitudes ±60˚ and are only available over land. When these grids are accessed as
 @earth_gebco_01s or @earth_gebco_03s we will automatically up-sample the relevant @earth_gebco_15s
 tiles to fill in the missing ocean values. If you just want the original land-only SRTM tiles
 you may use the special names @srtm_relief_03s or @srtm_relief_01s instead. Almost all grids

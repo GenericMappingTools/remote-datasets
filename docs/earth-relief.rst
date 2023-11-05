@@ -21,7 +21,7 @@ You access a global relief grid by specifying the special name
 This grid only contains observed relief and inferred relief via altimetric gravity.
 A new version that uses the statistical properties of young seafloor fabric and
 directions of spreading is also available and provides more realistic relief in
-areas of young seafloor with small seamounts.  That grid can be accessed via
+areas of young seafloor with small seamounts. That grid can be accessed via
 
    @earth_synbath[_\ *rru*\ [_\ *reg*\ ]]
 
@@ -62,11 +62,11 @@ Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
 As you see, the 30s and lower resolutions are all derivatives of Scripps' SRTM15+V2.5.5 grid
-(Tozer et al., 2019).  We have downsampled it via Cartesian Gaussian filtering to prevent
+(Tozer et al., 2019). We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 15 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. The 3 and 1 arc second data
-are the SRTM 1x1 degree tiles from NASA.  **Note**: The 3 and 1 arc second grids only extend
-to latitudes ±60˚ and are only available over land.  When these grids are accessed as
+are the SRTM 1x1 degree tiles from NASA. **Note**: The 3 and 1 arc second grids only extend
+to latitudes ±60˚ and are only available over land. When these grids are accessed as
 @earth_relief_01s or @earth_relief_03s we will automatically up-sample the relevant @earth_relief_15s
 tiles to fill in the missing ocean values. If you just want the original land-only SRTM tiles
 you may use the special names @srtm_relief_03s or @srtm_relief_01s instead. Almost all grids

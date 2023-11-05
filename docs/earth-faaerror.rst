@@ -25,7 +25,7 @@ You access a global free-air (faa) error grid by specifying the special name
 The following codes for *rr*\ *u* and the optional *reg* are supported (dimensions are listed
 for pixel-registered grids; gridline-registered grids increment dimensions by one):
 
-.. _tbl-earth_faa:
+.. _tbl-earth_faaerror:
 
 .. table:: IGPP Global Earth Free-Air Anomaly. An asterisk denotes tiled datasets.
 

@@ -34,7 +34,7 @@ Information about the GMT data server and mirrors can be found on the
     .. grid-item-card:: GEBCO Earth Relief
         :link: earth-gebco
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_gebcosi_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: GSHHG Earth Mask
@@ -47,6 +47,36 @@ Information about the GMT data server and mirrors can be found on the
         :link: earth-faa
         :link-type: doc
         :img-bottom: /_static/GMT_earth_faa_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: IGPP Earth Free-Air Anomaly Error
+        :link: earth-faaerror
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_faaerror_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: IGPP Earth West-East Deflections
+        :link: earth-edefl
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_edefl_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: CNES Earth Mean Sea Surface
+        :link: earth-mss
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_mss_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: CNES Earth Mean Dynamic Topography
+        :link: earth-mdt
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_mdt_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: IGPP Earth South-North Deflections
+        :link: earth-ndefl
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_ndefl_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: IGPP Earth Relief
@@ -73,17 +103,57 @@ Information about the GMT data server and mirrors can be found on the
         :img-bottom: /_static/GMT_earth_wdmam_thumbnail.jpg
         :text-align: center
 
+    .. grid-item-card:: NASA Mars Relief
+        :link: mars-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_mars_relief_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: USGS Mercury Relief
+        :link: mercury-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_mercury_relief_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: USGS Moon Relief
+        :link: moon-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_moon_relief_thumbnail.jpg
+        :text-align: center
+
+     .. grid-item-card:: USGS Pluto Relief
+        :link: pluto-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_pluto_relief_thumbnail.jpg
+        :text-align: center
+
+   .. grid-item-card:: IGPP Venus Relief
+        :link: venus-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_venus_relief_thumbnail.jpg
+        :text-align: center
+
+
 .. toctree::
    :hidden:
    :caption: Datasets
 
    earth-age
+   earth-edefl
+   earth-daynight
+   earth-faa
+   earth-faaerror
+   earth-gebco
    earth-geoid
    earth-mag
    earth-relief
    earth-mask
    earth-faa
    earth-gebco
+   earth-mask
+   earth-mdt
+   earth-mss
+   earth-relief
    earth-vgg
    earth-daynight
    earth-wdmam

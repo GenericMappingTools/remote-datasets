@@ -32,17 +32,17 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   ==== ================= === =======  ========================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ========================================
-  01d       360 x    180 g,p   91 KB  1 arc degree global VGG (1 min @ 111 km)
-  30m       720 x    360 g,p  329 KB  30 arc minute global VGG (1 min @ 55 km)
-  20m      1080 x    540 g,p  731 KB  20 arc minute global VGG (1 min @ 37 km)
-  15m      1440 x    720 g,p  1.3 MB  15 arc minute global VGG (1 min @ 28 km)
-  10m      2160 x   1080 g,p  2.8 MB  10 arc minute global VGG (1 min @ 18 km)
-  06m      3600 x   1800 g,p  7.6 MB  6 arc minute global VGG (1 min @ 10 km)
-  05m*     4320 x   2160 g,p   11 MB  5 arc minute global VGG (1 min @ 9 km)
-  04m*     5400 x   2700 g,p   17 MB  4 arc minute global VGG (1 min @ 7.5 km)
-  03m*     7200 x   3600 g,p   29 MB  3 arc minute global VGG (1 min @ 5.6 km)
-  02m*    10800 x   5400 g,p   63 MB  2 arc minute global VGG (1 min @ 3.7 km)
-  01m*    21600 x  10800   p  236 MB  1 arc minute global VGG (1 min original)
+  01d       360 x    180 g,p   79 KB  1 arc degree global VGG (1 min @ 315 km)
+  30m       720 x    360 g,p  288 KB  30 arc minute global VGG (1 min @ 157 km)
+  20m      1080 x    540 g,p  653 KB  20 arc minute global VGG (1 min @ 105 km)
+  15m      1440 x    720 g,p  1.2 MB  15 arc minute global VGG (1 min @ 79 km)
+  10m      2160 x   1080 g,p  2.6 MB  10 arc minute global VGG (1 min @ 52 km)
+  06m      3600 x   1800 g,p  7.2 MB  6 arc minute global VGG (1 min @ 32 km)
+  05m*     4320 x   2160 g,p   10 MB  5 arc minute global VGG (1 min @ 26 km)
+  04m*     5400 x   2700 g,p   16 MB  4 arc minute global VGG (1 min @ 21 km)
+  03m*     7200 x   3600 g,p   28 MB  3 arc minute global VGG (1 min @ 16 km)
+  02m*    10800 x   5400 g,p   62 MB  2 arc minute global VGG (1 min @ 11 km)
+  01m*    21600 x  10800   p  235 MB  1 arc minute global VGG (1 min original)
   ==== ================= === =======  ========================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.

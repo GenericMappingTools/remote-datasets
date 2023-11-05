@@ -25,16 +25,16 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   ==== ================= === =======  ==================================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ==================================================
-  01d       360 x    180 g,p   99 KB  1 arc degree global EGM2008 geoid (1 min @ 111 km)
-  30m       720 x    360 g,p  324 KB  30 arc minute global EGM2008 geoid (1 min @ 55 km)
-  20m      1080 x    540 g,p  664 KB  20 arc minute global EGM2008 geoid (1 min @ 37 km)
-  15m      1440 x    720 g,p  1.1 MB  15 arc minute global EGM2008 geoid (1 min @ 28 km)
-  10m      2160 x   1080 g,p  2.9 MB  10 arc minute global EGM2008 geoid (1 min @ 18 km)
-  06m      3600 x   1800 g,p  5.9 MB  6 arc minute global EGM2008 geoid (1 min @ 10 km)
-  05m*     4320 x   2160 g,p  8.1 MB  5 arc minute global EGM2008 geoid (1 min @ 9 km)
-  04m*     5400 x   2700 g,p   11 MB  4 arc minute global EGM2008 geoid (1 min @ 7.5 km)
-  03m*     7200 x   3600 g,p   20 MB  3 arc minute global EGM2008 geoid (1 min @ 5.6 km)
-  02m*    10800 x   5400 g,p   34 MB  2 arc minute global EGM2008 geoid (1 min @ 3.7 km)
+  01d       360 x    180 g,p   98 KB  1 arc degree global EGM2008 geoid (1 min @ 315 km)
+  30m       720 x    360 g,p  320 KB  30 arc minute global EGM2008 geoid (1 min @ 157 km)
+  20m      1080 x    540 g,p  658 KB  20 arc minute global EGM2008 geoid (1 min @ 105 km)
+  15m      1440 x    720 g,p  1.1 MB  15 arc minute global EGM2008 geoid (1 min @ 79 km)
+  10m      2160 x   1080 g,p  2.3 MB  10 arc minute global EGM2008 geoid (1 min @ 52 km)
+  06m      3600 x   1800 g,p  5.9 MB  6 arc minute global EGM2008 geoid (1 min @ 32 km)
+  05m*     4320 x   2160 g,p  8.0 MB  5 arc minute global EGM2008 geoid (1 min @ 26 km)
+  04m*     5400 x   2700 g,p   11 MB  4 arc minute global EGM2008 geoid (1 min @ 21 km)
+  03m*     7200 x   3600 g,p   20 MB  3 arc minute global EGM2008 geoid (1 min @ 16 km)
+  02m*    10800 x   5400 g,p   34 MB  2 arc minute global EGM2008 geoid (1 min @ 11 km)
   01m*    21600 x  10800   g  100 MB  1 arc minute global EGM2008 geoid (1 min original)
   ==== ================= === =======  ==================================================
 

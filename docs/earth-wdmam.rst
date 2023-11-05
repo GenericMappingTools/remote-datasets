@@ -29,15 +29,15 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   ==== ================= === =======  ==========================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ==========================================
-  01d       360 x    180 g,p   94 KB  1 arc degree global WDMAM (3 min @ 111 km)
-  30m       720 x    360 g,p  329 KB  30 arc minute global WDMAM (3 min @ 55 km)
-  20m      1080 x    540 g,p  695 KB  20 arc minute global WDMAM (3 min @ 37 km)
-  15m      1440 x    720 g,p  1.2 MB  15 arc minute global WDMAM (3 min @ 28 km)
-  10m      2160 x   1080 g,p  2.5 MB  10 arc minute global WDMAM (3 min @ 18 km)
-  06m      3600 x   1800 g,p  5.7 MB  6 arc minute global WDMAM (3 min @ 10 km)
-  05m*     4320 x   2160 g,p  9.3 MB  5 arc minute global WDMAM (3 min @ 9 km)
-  04m*     5400 x   2700 g,p   14 MB  4 arc minute global WDMAM (3 min @ 7.5 km)
-  03m*     7200 x   3600 g     24 MB  3 arc minute global WDMAM (3 min original)
+  01d       360 x    180 g,p   97 KB  1 arc degree global WDMAM (3 min @ 315 km)
+  30m       720 x    360 g,p  352 KB  30 arc minute global WDMAM (3 min @ 157 km)
+  20m      1080 x    540 g,p  763 KB  20 arc minute global WDMAM (3 min @ 105 km)
+  15m      1440 x    720 g,p  1.3 MB  15 arc minute global WDMAM (3 min @ 79 km)
+  10m      2160 x   1080 g,p  2.9 MB  10 arc minute global WDMAM (3 min @ 52 km)
+  06m      3600 x   1800 g,p  7.7 MB  6 arc minute global WDMAM (3 min @ 32 km)
+  05m*     4320 x   2160 g,p   11 MB  5 arc minute global WDMAM (3 min @ 26 km)
+  04m*     5400 x   2700 g,p   16 MB  4 arc minute global WDMAM (3 min @ 21 km)
+  03m*     7200 x   3600 g     29 MB  3 arc minute global WDMAM (3 min original)
   ==== ================= === =======  ==========================================
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.

@@ -16,7 +16,7 @@ Information about the GMT data server and mirrors can be found on the
     .. grid-item-card:: EarthByte Earth Seafloor Crustal Age
         :link: earth-age
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_age_thumbnail.png
+        :img-bottom: /_static/GMT_earth_age_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: EGM2008 Earth Geoid
@@ -35,12 +35,11 @@ Information about the GMT data server and mirrors can be found on the
         :link: earth-gebco
         :link-type: doc
         :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
-        :text-align: center
 
     .. grid-item-card:: GSHHG Earth Mask
         :link: earth-mask
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mask_thumbnail.png
+        :img-bottom: /_static/GMT_earth_mask_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: IGPP Earth Free-Air Anomaly
@@ -139,24 +138,24 @@ Information about the GMT data server and mirrors can be found on the
    :caption: Datasets
 
    earth-age
-   earth-edefl
    earth-daynight
+   earth-edefl
    earth-faa
    earth-faaerror
    earth-gebco
    earth-geoid
    earth-mag
-   earth-relief
-   earth-mask
-   earth-faa
-   earth-gebco
    earth-mask
    earth-mdt
    earth-mss
    earth-relief
    earth-vgg
-   earth-daynight
    earth-wdmam
+   mars-relief
+   mercury-relief
+   moon-relief
+   pluto-relief
+   venus-relief
 
 .. toctree::
    :caption: Reference

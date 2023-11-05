@@ -115,13 +115,13 @@ Information about the GMT data server and mirrors can be found on the
         :img-bottom: /_static/GMT_moon_relief_thumbnail.jpg
         :text-align: center
 
-     .. grid-item-card:: NASA Pluto Relief
+    .. grid-item-card:: NASA Pluto Relief
         :link: pluto-relief
         :link-type: doc
         :img-bottom: /_static/GMT_pluto_relief_thumbnail.jpg
         :text-align: center
 
-   .. grid-item-card:: NASA Venus Relief
+    .. grid-item-card:: NASA Venus Relief
         :link: venus-relief
         :link-type: doc
         :img-bottom: /_static/GMT_venus_relief_thumbnail.jpg

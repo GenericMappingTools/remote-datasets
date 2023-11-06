@@ -120,13 +120,13 @@ Information about the GMT data server and mirrors can be found on the
         :img-bottom: /_static/GMT_moon_relief_thumbnail.jpg
         :text-align: center
 
-     .. grid-item-card:: USGS Pluto Relief
+    .. grid-item-card:: USGS Pluto Relief
         :link: pluto-relief
         :link-type: doc
         :img-bottom: /_static/GMT_pluto_relief_thumbnail.jpg
         :text-align: center
 
-   .. grid-item-card:: IGPP Venus Relief
+    .. grid-item-card:: IGPP Venus Relief
         :link: venus-relief
         :link-type: doc
         :img-bottom: /_static/GMT_venus_relief_thumbnail.jpg

@@ -10,9 +10,9 @@ GSHHG Earth Mask
    :scale: 40 %
 
 Many users need ocean/land mask grids to isolate features that should only be
-set over the ocean or on land.  While you can prevent such areas from being plotted
+set over the ocean or on land. While you can prevent such areas from being plotted
 via the clipping in :gmt-docs:`coast`, you may still want to perform calculations on
-gridded data and apply masks via :gmt-docs:`grdmath`.  Such mask grids can be computed
+gridded data and apply masks via :gmt-docs:`grdmath`. Such mask grids can be computed
 via :gmt-docs:`grdlandmask` but they can take a long time to compute for large regions,
 the full GSHHG resolution, and small grid spacings. For these reasons we offer
 precalculated mask grids via the remote server mechanism.
@@ -67,8 +67,8 @@ node values in the mask grids are all in the 0-4 range and have these meanings:
     4. Smaller lakes in islands that are found within lakes inside the land area
 
 This means that if you only want a mask for the ocean or one for wet versus dry, you will need to
-run a simple :gmt-docs:`grdmath` command to adjust the mask for your use.  We give some common
-examples here.  To create a gridline-registered mask that is 0 in the ocean and 1 everywhere
+run a simple :gmt-docs:`grdmath` command to adjust the mask for your use. We give some common
+examples here. To create a gridline-registered mask that is 0 in the ocean and 1 everywhere
 else (even in lakes, etc.), try::
 
     gmt grdmath @earth_mask_01m_g 0 GT = ocean_land.grd

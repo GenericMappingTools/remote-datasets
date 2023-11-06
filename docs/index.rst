@@ -16,7 +16,7 @@ Information about the GMT data server and mirrors can be found on the
     .. grid-item-card:: EarthByte Earth Seafloor Crustal Age
         :link: earth-age
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_age_thumbnail.png
+        :img-bottom: /_static/GMT_earth_age_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: EGM2008 Earth Geoid
@@ -28,25 +28,18 @@ Information about the GMT data server and mirrors can be found on the
     .. grid-item-card:: EMAG2 Earth Magnetic Anomaly Model
         :link: earth-mag
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mag4km_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_mag_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: GEBCO Earth Relief
         :link: earth-gebco
         :link-type: doc
         :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
-        :text-align: center
-
-    .. grid-item-card:: GEBCO Earth Relief Sub Ice
-        :link: earth-gebcosi
-        :link-type: doc
-        :img-bottom: /_static/GMT_earth_gebcosi_thumbnail.jpg
-        :text-align: center
 
     .. grid-item-card:: GSHHG Earth Mask
         :link: earth-mask
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mask_thumbnail.png
+        :img-bottom: /_static/GMT_earth_mask_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: IGPP Earth Free-Air Anomaly
@@ -56,15 +49,27 @@ Information about the GMT data server and mirrors can be found on the
         :text-align: center
 
     .. grid-item-card:: IGPP Earth Free-Air Anomaly Error
-        :link: earth-faaerrors
+        :link: earth-faaerror
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_faaerrors_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_faaerror_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: IGPP Earth West-East Deflections
         :link: earth-edefl
         :link-type: doc
         :img-bottom: /_static/GMT_earth_edefl_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: CNES Earth Mean Sea Surface
+        :link: earth-mss
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_mss_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: CNES Earth Mean Dynamic Topography
+        :link: earth-mdt
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_mdt_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: IGPP Earth South-North Deflections
@@ -103,25 +108,25 @@ Information about the GMT data server and mirrors can be found on the
         :img-bottom: /_static/GMT_mars_relief_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: NASA Mercury Relief
+    .. grid-item-card:: USGS Mercury Relief
         :link: mercury-relief
         :link-type: doc
         :img-bottom: /_static/GMT_mercury_relief_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: NASA Moon Relief
+    .. grid-item-card:: USGS Moon Relief
         :link: moon-relief
         :link-type: doc
         :img-bottom: /_static/GMT_moon_relief_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: NASA Pluto Relief
+    .. grid-item-card:: USGS Pluto Relief
         :link: pluto-relief
         :link-type: doc
         :img-bottom: /_static/GMT_pluto_relief_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: NASA Venus Relief
+    .. grid-item-card:: IGPP Venus Relief
         :link: venus-relief
         :link-type: doc
         :img-bottom: /_static/GMT_venus_relief_thumbnail.jpg
@@ -133,21 +138,18 @@ Information about the GMT data server and mirrors can be found on the
    :caption: Datasets
 
    earth-age
-   earth-edefl
    earth-daynight
+   earth-edefl
    earth-faa
-   earth-faaerrors
+   earth-faaerror
    earth-gebco
-   earth-gebcosi
    earth-geoid
-   earth-ndefl
    earth-mag
-   earth-mag4k
    earth-mask
-   earth-mdf
+   earth-mdt
    earth-mss
+   earth-ndefl
    earth-relief
-   earth-synbath
    earth-vgg
    earth-wdmam
    mars-relief

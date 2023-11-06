@@ -44,7 +44,7 @@ specify a CPT, the default CPT for this dataset (the GMT master *@earth_mdt* CPT
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 
-As you see, the 10m and lower resolutions are all derivatives of the original 7.5 arc-minute mdt_cnes_cls22_fg.nc grid
+The 10m and lower resolutions are all derivatives of the original 7.5 arc-minute mdt_cnes_cls22_fg.nc grid
 We scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible. We have downsampled it via Cartesian Gaussian filtering to prevent
 aliasing while preserving the latitude-dependent resolution in the original 7.5 arc-minute grid. For the MDT grid this means

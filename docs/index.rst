@@ -28,7 +28,7 @@ Information about the GMT data server and mirrors can be found on the
     .. grid-item-card:: EMAG2 Earth Magnetic Anomaly Model
         :link: earth-mag
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mag4km_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_mag_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: GEBCO Earth Relief

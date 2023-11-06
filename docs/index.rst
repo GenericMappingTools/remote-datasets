@@ -9,6 +9,8 @@ Welcome to the documentation for the remote datasets available through GMT's
 Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
+**Note**: New datasets for vertical deflections, FAA errors, sea level and dynamic
+topography and the planetary data will be available when GMT 6.5 is released.
 
 .. grid:: 1 2 3 3
     :gutter: 2

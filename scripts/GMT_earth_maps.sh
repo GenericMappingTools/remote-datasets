@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Makes maps for every dataset in list for docs/earth-"set".rst
-# Exclude close reltives like relif|synbath, gebco|gebcosi, and mag|mag4k
+# Exclude close relatives like relief|synbath, gebco|gebcosi, and mag|mag4k
 
 list=(day night age edefl faa faaerror gebco geoid mag mask mdt mss ndefl relief vgg wdmam)
 

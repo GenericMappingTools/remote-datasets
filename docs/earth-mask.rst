@@ -3,7 +3,7 @@
 GSHHG Earth Mask
 ----------------
 
-.. figure:: /_static/GMT_earth_mask.png
+.. figure:: /_static/GMT_earth_mask.jpg
    :height: 888 px
    :width: 1774 px
    :align: center

@@ -1,10 +1,10 @@
 EarthByte Earth Seafloor Crustal Age
 ------------------------------------
-.. figure:: /_static/EarthByte_logo_small.png
+.. figure:: /_static/EarthByte_logo_small.pnghttps://github.com/GenericMappingTools/remote-datasets/blob/earth_age_map_format/docs/earth-age.rst
    :align: right
    :scale: 20 %
 
-.. figure:: /_static/GMT_earth_age.png
+.. figure:: /_static/GMT_earth_age.jpg
    :width: 710 px
    :align: center
 

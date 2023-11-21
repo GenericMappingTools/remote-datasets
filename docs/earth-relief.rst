@@ -30,7 +30,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_relief:
 
-.. table:: IGPP Global Earth Relief. An asterisk denotes tiled datasets.
+.. table:: IGPP Earth Relief. An asterisk denotes tiled datasets.
 
   ==== ================= === =======  ==================================================
   Code Dimensions        Reg Size     Description

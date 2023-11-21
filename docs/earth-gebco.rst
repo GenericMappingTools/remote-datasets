@@ -28,7 +28,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_gebco:
 
-.. table:: GEBCO Global Earth Relief. An asterisk denotes tiled datasets.
+.. table:: GEBCO Earth Relief. An asterisk denotes tiled datasets.
 
   ==== ================= === =======  ================================================
   Code Dimensions        Reg Size     Description

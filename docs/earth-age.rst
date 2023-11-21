@@ -25,7 +25,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_age:
 
-.. table:: EarthByte Global Earth Seafloor Crustal Age. An asterisk denotes tiled datasets.
+.. table:: EarthByte Earth Seafloor Crustal Age. An asterisk denotes tiled datasets.
 
   ==== ================= === =======  ==================================================
   Code Dimensions        Reg Size     Description

@@ -20,7 +20,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_geoid:
 
-.. table:: EGM2008 Global Earth Geoid. An asterisk denotes tiled datasets.
+.. table:: EGM2008 Earth Geoid. An asterisk denotes tiled datasets.
 
   ==== ================= === =======  ==================================================
   Code Dimensions        Reg Size     Description

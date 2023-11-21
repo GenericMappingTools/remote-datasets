@@ -28,7 +28,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_faa:
 
-.. table:: IGPP Global Earth Free-Air Anomaly. An asterisk denotes tiled datasets.
+.. table:: IGPP Earth Free-Air Anomaly. An asterisk denotes tiled datasets.
 
   ==== ================= === =======  =======================================
   Code Dimensions        Reg Size     Description

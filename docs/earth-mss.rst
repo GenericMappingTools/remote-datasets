@@ -23,7 +23,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_mss:
 
-.. table:: CNES Global Earth Mean Sea Surface. An asterisk denotes tiled datasets.
+.. table:: CNES Earth Mean Sea Surface. An asterisk denotes tiled datasets.
 
   ==== ================= === =======  =======================================
   Code Dimensions        Reg Size     Description

@@ -29,7 +29,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_masks:
 
-.. table:: GSHHG Global Earth Mask
+.. table:: GSHHG Earth Mask
 
   ==== ================= === =======  =====================================================
   Code Dimensions        Reg Size     Description

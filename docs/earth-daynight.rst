@@ -34,7 +34,7 @@ the lowest resolution):
 
 .. _tbl-earth_daynight:
 
-.. table:: NASA Global Earth Day/Night Images.
+.. table:: NASA Earth Day/Night Images.
 
   ==== ================= =======  ===========================================================
   Code Dimensions        Size     Description

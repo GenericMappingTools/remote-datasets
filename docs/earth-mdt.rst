@@ -23,7 +23,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_mdt:
 
-.. table:: CNES Earth Mean Dynamic Topography. An asterisk denotes tiled datasets.
+.. table:: CNES Earth Mean Dynamic Topography.
 
   ==== ================= === =======  =======================================
   Code Dimensions        Reg Size     Description

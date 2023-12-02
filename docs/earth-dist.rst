@@ -1,9 +1,5 @@
 CNES Earth Distance to Shoreline
 --------------------------------
-.. figure:: /_static/dist.jpg
-   :align: right
-   :scale: 20 %
-
 .. figure:: /_static/GMT_earth_dist.jpg
    :width: 710 px
    :align: center

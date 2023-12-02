@@ -9,8 +9,9 @@ Welcome to the documentation for the remote datasets available through GMT's
 Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
-**Note**: New datasets for vertical deflections, FAA errors, sea level and dynamic
-topography and the planetary data will be available when GMT 6.5 is released.
+**Note**: New datasets for vertical deflections, FAA errors, sea level, dynamic
+topography, distance to GSHHG coastline and the planetary data will be available
+when GMT 6.5 is released.
 
 .. grid:: 1 2 3 3
     :gutter: 2
@@ -42,6 +43,12 @@ topography and the planetary data will be available when GMT 6.5 is released.
         :link: earth-mask
         :link-type: doc
         :img-bottom: /_static/GMT_earth_mask_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: GSHHG Distance to Shoreline
+        :link: earth-dist
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_dist_thumbnail.jpg
         :text-align: center
 
     .. grid-item-card:: IGPP Earth Free-Air Anomaly
@@ -142,6 +149,7 @@ topography and the planetary data will be available when GMT 6.5 is released.
    earth-age
    earth-daynight
    earth-edefl
+   earth-dist
    earth-faa
    earth-faaerror
    earth-gebco

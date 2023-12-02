@@ -23,6 +23,7 @@ Run:
     bash GMT_earth_daynight.sh
     bash GMT_earth_maps.sh
     bash GMT_earth_mask.sh
+    bash GMT_earth_dist.sh
     bash GMT_planet_relief.sh
 
 ## Run all test scripts

@@ -8,7 +8,7 @@
 # candidate server which must pass all tests before overwriting oceania.
 #
 # Keeping mdt off the list since starts at 7.5 min grid only
-list=(age day edefl faa faaerror gebco gebcosi geoid mag mag4km mask mss ndefl night relief synbath vgg wdmam)
+list=(age day dist edefl faa faaerror gebco gebcosi geoid mag mag4km mask mss ndefl night relief synbath vgg wdmam)
 
 gmt set GMT_DATA_SERVER candidate
 for set in ${list[@]}; do

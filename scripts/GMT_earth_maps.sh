@@ -2,8 +2,7 @@
 # Makes maps for every dataset in list for docs/earth-"set".rst
 # Exclude close relatives like relief|synbath, gebco|gebcosi, and mag|mag4k
 
-#list=(day night age dist edefl faa faaerror gebco geoid mag mask mdt mss ndefl relief vgg wdmam)
-list=(dist)
+list=(day night age dist edefl faa faaerror gebco geoid mag mask mdt mss ndefl relief vgg wdmam)
 
 gmt set GMT_DATA_SERVER candidate
 let k=0

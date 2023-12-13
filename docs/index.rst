@@ -38,6 +38,7 @@ when GMT 6.5 is released.
         :link: earth-gebco
         :link-type: doc
         :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
+        :text-align: center
 
     .. grid-item-card:: GSHHG Earth Mask
         :link: earth-mask

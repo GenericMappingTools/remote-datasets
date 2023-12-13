@@ -1,4 +1,4 @@
-USGA Pluto Relief
+USGS Pluto Relief
 -----------------
 
 .. figure:: /_static/usgs.png

@@ -46,7 +46,7 @@ when GMT 6.5 is released.
         :img-bottom: /_static/GMT_earth_mask_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: GSHHG Distance to Shoreline
+    .. grid-item-card:: GSHHG Earth Distance to Shoreline
         :link: earth-dist
         :link-type: doc
         :img-bottom: /_static/GMT_earth_dist_thumbnail.jpg

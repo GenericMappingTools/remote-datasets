@@ -10,8 +10,9 @@ Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
 **Note**: New datasets for vertical deflections, FAA errors, sea level, dynamic
-topography, distance to GSHHG coastline and the planetary data will be available
-when GMT 6.5 is released.
+topography, distance to GSHHG coastline and the planetary data are available
+now that GMT 6.5 is released. Also note that the highest resolution data for
+Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
 
 .. grid:: 1 2 3 3
     :gutter: 2

@@ -9,7 +9,7 @@ Welcome to the documentation for the remote datasets available through GMT's
 Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
-.. notes::
+.. note::
 
    The highest resolution data for Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
 

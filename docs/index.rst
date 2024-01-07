@@ -11,7 +11,7 @@ Information about the GMT data server and mirrors can be found on the
 
 .. notes::
 
-The highest resolution data for Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
+   The highest resolution data for Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
 
 .. grid:: 1 2 3 3
     :gutter: 2

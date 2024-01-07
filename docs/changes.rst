@@ -1,11 +1,25 @@
 Changelog
 ---------
 
+2024-01-07
+^^^^^^^^^^
+
+- ``earth_dist``: Add new dataset 'Distance to nearest shoreline' [`Wessel and Chandler, 2011 <https:doi.org/10.2478/s11600-010-0038-1>`_].
+- ``earth_edefl``: Add new dataset 'E-W deflection of the vertical' [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
+- ``earth_ndefl``: Add new dataset 'N-S deflection of the vertical' [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
+- ``earth_faaerror``: Add new dataset 'FAA error' [`Sandwell_et_al.,_2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
+- ``earth_mdt``: Add new dataset 'Mean Dynamic Topography' [`Jousset et al., 2022 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
+- ``earth_mss``: Add new dataset 'Mean Sea Surface' [`Sandwell et al., 2022]. <https://topex.ucsd.edu/pub/MSS_replace/mss_sio_32.1.nc>`_].
+- ``mars_relief``: Add new dataset 'Mars MOLA Relief' [`Neumann et al., 2003]. <https://doi.org/10.1029/2000JE001426/abstract>`_].
+- ``mercury_relief``: Add new dataset 'Mercury Messenger Relief' [`Becker et al., 2016]. <https://www.hou.usra.edu/meetings/lpsc2016/pdf/2959.pdf>`_].
+- ``moon_relief``: Add new dataset 'Moon LOLA Relief' [`Mazarico et al., 2013]. <https://doi.org/10.1007/s00190-011-0509-4>`_].
+- ``pluto_relief``: Add new dataset 'Pluto New Horizons Relief' [`Moore et al., 2016]. <https://doi.org/10.1126/science.aad7055>`_].
+- ``venus_relief``: Add new dataset 'Venus Magellan Relief' [`Sandwell, 2012]. <https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940013181.pdf>`_].
+
 2023-08-24
 ^^^^^^^^^^
 
 - ``earth_relief``: Update dataset source from 2.4 to 2.5.5.
-
 
 2023-08-19
 ^^^^^^^^^^
@@ -13,7 +27,6 @@ Changelog
 - ``earth_synbath``: Update dataset source from version 1.2 to 2.0.
 - ``earth_gebco``: Update dataset source from version 2021 to 2023.[`GEBCO Compilation Group, 2023, GEBCO 2023 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].
 - ``earth_gebcosi``: Update dataset source from version 2021 to 2023.[`GEBCO Compilation Group, 2023, GEBCO 2023 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].
-
 
 2023-08-17
 ^^^^^^^^^^

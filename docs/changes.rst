@@ -7,7 +7,7 @@ Changelog
 - ``earth_dist``: Add new dataset 'Distance to nearest shoreline' [`Wessel and Chandler, 2011 <https:doi.org/10.2478/s11600-010-0038-1>`_].
 - ``earth_edefl``: Add new dataset 'E-W deflection of the vertical' [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
 - ``earth_ndefl``: Add new dataset 'N-S deflection of the vertical' [`Sandwell et al., 2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
-- ``earth_ndefl``: Add new dataset 'FAA error' [`Sandwell_et_al.,_2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
+- ``earth_faaerror``: Add new dataset 'FAA error' [`Sandwell_et_al.,_2019 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
 - ``earth_mdt``: Add new dataset 'Mean Dynamic Topography' [`Jousset et al., 2022 <https://doi.org/10.1016/j.asr.2019.09.011>`_].
 - ``earth_mss``: Add new dataset 'Mean Sea Surface' [`Sandwell et al., 2022]. <https://topex.ucsd.edu/pub/MSS_replace/mss_sio_32.1.nc>`_].
 - ``mars_relief``: Add new dataset 'Mars MOLA Relief' [`Neumann et al., 2003]. <https://doi.org/10.1029/2000JE001426/abstract>`_].

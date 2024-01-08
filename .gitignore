@@ -16,3 +16,5 @@ docs/_build/
 
 # Script check png
 scripts/check_*.png
+# Advertisement figs
+scripts/GMT_new_data.jpg

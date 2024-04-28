@@ -63,4 +63,4 @@ grid at 12.1468873601 arc-seconds resolution (here called @mars_relief_12s). Dat
 Data References
 ~~~~~~~~~~~~~~~
 
-#. MOLA: [https://doi.org/10.1029/2000JE001426/abstract].
+#. MOLA: [https://doi.org/10.1029/2000JE001426].

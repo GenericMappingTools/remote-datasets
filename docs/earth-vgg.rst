@@ -27,8 +27,6 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-earth_vgg:
 
-.. table:: IGPP Earth Vertical Gravity Gradient. An asterisk denotes tiled datasets.
-
   ==== ================= === =======  ========================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ========================================
@@ -38,12 +36,15 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   15m      1440 x    720 g,p  1.2 MB  15 arc minute global VGG (1 min @ 79 km)
   10m      2160 x   1080 g,p  2.6 MB  10 arc minute global VGG (1 min @ 52 km)
   06m      3600 x   1800 g,p  7.2 MB  6 arc minute global VGG (1 min @ 32 km)
-  05m*     4320 x   2160 g,p   10 MB  5 arc minute global VGG (1 min @ 26 km)
-  04m*     5400 x   2700 g,p   16 MB  4 arc minute global VGG (1 min @ 21 km)
-  03m*     7200 x   3600 g,p   28 MB  3 arc minute global VGG (1 min @ 16 km)
-  02m*    10800 x   5400 g,p   62 MB  2 arc minute global VGG (1 min @ 11 km)
-  01m*    21600 x  10800   p  235 MB  1 arc minute global VGG (1 min original)
+  05m      4320 x   2160 g,p   10 MB  5 arc minute global VGG (1 min @ 26 km)
+  04m      5400 x   2700 g,p   16 MB  4 arc minute global VGG (1 min @ 21 km)
+  03m      7200 x   3600 g,p   28 MB  3 arc minute global VGG (1 min @ 16 km)
+  02m     10800 x   5400 g,p   62 MB  2 arc minute global VGG (1 min @ 11 km)
+  01m     21600 x  10800   p  235 MB  1 arc minute global VGG (1 min original)
   ==== ================= === =======  ========================================
+
+Note that resolutions 05m and higher are tiled.
+See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more information.
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with

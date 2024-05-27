@@ -28,8 +28,6 @@ refers to the ``earth_mag4km`` version (the oceanic files are ~60% smaller):
 
 .. _tbl-earth_mag:
 
-.. table:: EMAG2 Earth Magnetic Anomaly Model. An asterisk denotes tiled datasets.
-
   ==== ================= === =======  ==========================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ==========================================
@@ -39,11 +37,14 @@ refers to the ``earth_mag4km`` version (the oceanic files are ~60% smaller):
   15m      1440 x    720 g,p  748 KB  15 arc minute global EMAG2 (2 min @ 79 km)
   10m      2160 x   1080 g,p  1.6 MB  10 arc minute global EMAG2 (2 min @ 52 km)
   06m      3600 x   1800 g,p  4.1 MB  6 arc minute global EMAG2 (2 min @ 32 km)
-  05m*     4320 x   2160 g,p  5.7 MB  5 arc minute global EMAG2 (2 min @ 26 km)
-  04m*     5400 x   2700 g,p  8.6 MB  4 arc minute global EMAG2 (2 min @ 21 km)
-  03m*     7200 x   3600 g,p   15 MB  3 arc minute global EMAG2 (2 min @ 16 km)
-  02m*    10800 x   5400   p   33 MB  2 arc minute global EMAG2 (2 min original)
+  05m      4320 x   2160 g,p  5.7 MB  5 arc minute global EMAG2 (2 min @ 26 km)
+  04m      5400 x   2700 g,p  8.6 MB  4 arc minute global EMAG2 (2 min @ 21 km)
+  03m      7200 x   3600 g,p   15 MB  3 arc minute global EMAG2 (2 min @ 16 km)
+  02m     10800 x   5400   p   33 MB  2 arc minute global EMAG2 (2 min original)
   ==== ================= === =======  ==========================================
+
+Note that resolutions 05m and higher are tiled.
+See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more information.
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with

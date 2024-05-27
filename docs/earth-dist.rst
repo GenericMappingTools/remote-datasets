@@ -1,5 +1,5 @@
 GSHHG Earth Distance to Shoreline
---------------------------------
+---------------------------------
 .. figure:: /_static/GMT_earth_dist.jpg
    :width: 710 px
    :align: center

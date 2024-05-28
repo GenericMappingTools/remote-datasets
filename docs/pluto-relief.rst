@@ -24,8 +24,6 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-pluto_relief:
 
-.. table:: USGS Pluto New Horizon (NH) Relief. An asterisk denotes tiled datasets.
-
   ==== ================= === =======  ==============================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ==============================================
@@ -35,13 +33,16 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   15m      1440 x    720 g,p  774 KB  15 arc minute Pluto relief (NH @ 15 km)
   10m      2160 x   1080 g,p  1.6 MB  10 arc minute Pluto relief (NH @ 9.8 km)
   06m      3600 x   1800 g,p  4.2 MB  6 arc minute Pluto relief (NH @ 5.9 km)
-  05m*     4320 x   2160 g,p  6.0 MB  5 arc minute Pluto relief (NH @ 4.9 km)
-  04m*     5400 x   2700 g,p  9.0 MB  4 arc minute Pluto relief (NH @ 3.3 km)
-  03m*     7200 x   3600 g,p   15 MB  3 arc minute Pluto relief (NH @ 2.9 km)
-  02m*    10800 x   5400 g,p   33 MB  2 arc minute Pluto relief (NH @ 2.0 km)
-  01m*    21600 x  10800 g,p  122 MB  1 arc minute Pluto relief (NH @ 1.0 km)
-  52s*    24888 x  12444 p    124 MB  52.07... arc second Pluto relief (NH original)
+  05m      4320 x   2160 g,p  6.0 MB  5 arc minute Pluto relief (NH @ 4.9 km)
+  04m      5400 x   2700 g,p  9.0 MB  4 arc minute Pluto relief (NH @ 3.3 km)
+  03m      7200 x   3600 g,p   15 MB  3 arc minute Pluto relief (NH @ 2.9 km)
+  02m     10800 x   5400 g,p   33 MB  2 arc minute Pluto relief (NH @ 2.0 km)
+  01m     21600 x  10800 g,p  122 MB  1 arc minute Pluto relief (NH @ 1.0 km)
+  52s     24888 x  12444 p    124 MB  52.07... arc second Pluto relief (NH original)
   ==== ================= === =======  ==============================================
+
+Note that resolutions 05m and higher are tiled.
+See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more information.
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with

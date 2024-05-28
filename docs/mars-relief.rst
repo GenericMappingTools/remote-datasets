@@ -24,8 +24,6 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 
 .. _tbl-mars_relief:
 
-.. table:: NASA Mars (MOLA) Relief. An asterisk denotes tiled datasets.
-
   ==== ================= === =======  ============================================
   Code Dimensions        Reg Size     Description
   ==== ================= === =======  ============================================
@@ -35,15 +33,18 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   15m      1440 x    720 g,p  1.3 MB  15 arc minute Mars relief (MOLA @ 42 km)
   10m      2160 x   1080 g,p  2.8 MB  10 arc minute Mars relief (MOLA @ 28 km)
   06m      3600 x   1800 g,p  7.5 MB  6 arc minute Mars relief (MOLA @ 17 km)
-  05m*     4320 x   2160 g,p   11 MB  5 arc minute Mars relief (MOLA @ 16 km)
-  04m*     5400 x   2700 g,p   16 MB  4 arc minute Mars relief (MOLA @ 11 km)
-  03m*     7200 x   3600 g,p   28 MB  3 arc minute Mars relief (MOLA @ 8.4 km)
-  02m*    10800 x   5400 g,p   61 MB  2 arc minute Mars relief (MOLA @ 5.6 km)
-  01m*    21600 x  10800 g,p  228 MB  1 arc minute Mars relief (MOLA @ 2.8 km)
-  30s*    43200 x  21600 g,p  822 MB  30 arc second Mars relief (MOLA @ 1.4 km)
-  15s*    86400 x  43200 g,p  2.7 GB  15 arc second Mars relief (MOLA @ 0.7 km)
-  12s*   106694 x  53347 p    3.1 GB  12.14... arc second Mars relief (MOLA original)
+  05m      4320 x   2160 g,p   11 MB  5 arc minute Mars relief (MOLA @ 16 km)
+  04m      5400 x   2700 g,p   16 MB  4 arc minute Mars relief (MOLA @ 11 km)
+  03m      7200 x   3600 g,p   28 MB  3 arc minute Mars relief (MOLA @ 8.4 km)
+  02m     10800 x   5400 g,p   61 MB  2 arc minute Mars relief (MOLA @ 5.6 km)
+  01m     21600 x  10800 g,p  228 MB  1 arc minute Mars relief (MOLA @ 2.8 km)
+  30s     43200 x  21600 g,p  822 MB  30 arc second Mars relief (MOLA @ 1.4 km)
+  15s     86400 x  43200 g,p  2.7 GB  15 arc second Mars relief (MOLA @ 0.7 km)
+  12s    106694 x  53347 p    3.1 GB  12.14... arc second Mars relief (MOLA original)
   ==== ================= === =======  ============================================
+
+Note that resolutions 05m and higher are tiled.
+See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more information.
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with

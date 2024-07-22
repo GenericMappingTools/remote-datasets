@@ -51,7 +51,7 @@ We scale and reformat the original data to take up very little space so that dow
 from the servers are as fast as possible. For the distance grid this meant
 we chose 80 m as the smallest data unit, which is below the uncertainties in the
 model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking. The data are reported in meters.
+by netCDF lossless compression and chunking. The data are reported in kilometers.
 
 Data References
 ~~~~~~~~~~~~~~~

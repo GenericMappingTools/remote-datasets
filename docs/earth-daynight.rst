@@ -11,7 +11,7 @@ NASA Earth Day/Night Images
    :scale: 40 %
 
 We serve two NASA image products: The Blue and Black marble mosaics.
-We have filtered and down-ampled those as well at the same resolutions that are
+We have filtered and down-sampled those as well at the same resolutions that are
 available for the Earth DEMs. However, all images are pixel-registered only.
 These images may be plotted with :gmt-docs:`grdimage` or :gmt-docs:`grdview` and manipulated
 by :gmt-docs:`grdmix`. The above example mixes both images according to a day-night

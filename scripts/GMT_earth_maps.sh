@@ -11,7 +11,7 @@ for set in ${list[@]}; do
     gmt begin GMT_earth_${set} jpg
         gmt grdimage @earth_${set}_10m -JQ0/7.5c -Rd ${I}
         if [ set = dist ]; then
-          gmt coast -W0.01p,white
+          gmt coast -W1/0.2p,white -Df
         fi
         gmt psconvert -A -P -E150 -FGMT_earth_${set}_thumbnail -Tj
     gmt end

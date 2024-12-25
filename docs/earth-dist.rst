@@ -42,7 +42,7 @@ See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more informatio
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_dist files being placed in an ``earth/earth_dist`` sub-directory. If you do not
-specify a CPT, the default CPT for this dataset (the GMT master *@earth_dist* CPT) will be used.
+specify a CPT, the default CPT for this dataset (the GMT master *@earth_dist.cpt* CPT) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

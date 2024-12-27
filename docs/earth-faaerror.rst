@@ -1,5 +1,5 @@
-IGPP Earth Free-Air Anomaly Errors
-----------------------------------
+IGPP Earth Free-Air Anomaly uncertainty
+---------------------------------------
 .. figure:: /_static/igpp.png
    :align: right
    :scale: 20 %
@@ -18,7 +18,7 @@ FAA node measurement.
 Usage
 ~~~~~
 
-You access a global free-air (faa) error grid by specifying the special name
+You access a global free-air (faa) uncertainty grid by specifying the special name
 
    @earth_faaerror[_\ *rru*\ [_\ *reg*\ ]]
 

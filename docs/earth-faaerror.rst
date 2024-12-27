@@ -1,4 +1,4 @@
-IGPP Earth Free-Air Anomaly uncertainty
+IGPP Earth Free-Air Anomaly Uncertainty
 ---------------------------------------
 .. figure:: /_static/igpp.png
    :align: right

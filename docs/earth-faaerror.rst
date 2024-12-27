@@ -1,5 +1,5 @@
-IGPP Earth Free-Air Anomaly Errors
-----------------------------------
+IGPP Earth Free-Air Anomaly uncertainty
+---------------------------------------
 .. figure:: /_static/igpp.png
    :align: right
    :scale: 20 %
@@ -18,7 +18,7 @@ FAA node measurement.
 Usage
 ~~~~~
 
-You access a global free-air (faa) error grid by specifying the special name
+You access a global free-air (faa) uncertainty grid by specifying the special name
 
    @earth_faaerror[_\ *rru*\ [_\ *reg*\ ]]
 
@@ -48,8 +48,8 @@ See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more informatio
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
-the earth_faa files being placed in an ``earth/earth_faa`` sub-directory. If you do not
-specify a CPT, the default CPT for this dataset (*@earth_faa.cpt*) will be used.
+the earth_faaerror files being placed in an ``earth/earth_faaerror`` sub-directory. If you do not
+specify a CPT, the default CPT for this dataset (*@earth_faaerror.cpt*) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

@@ -9,7 +9,7 @@ CNES Earth Mean Sea Surface
    :align: center
 
 Geodynamics studies have an interest in the Earth's Mean Sea Surface (MSS). CNES has
-provided such a grid post-processed by IGPP (Sandwell_et_al., 2022).
+provided such a grid post-processed by IGPP (Sandwell et al., 2022).
 
 Usage
 ~~~~~
@@ -45,7 +45,7 @@ See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more informatio
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_mss files being placed in an ``earth/earth_mss`` sub-directory. If you do not
-specify a CPT, the default CPT for this dataset (the GMT master *@earth_mss* CPT) will be used.
+specify a CPT, the default CPT for this dataset (the GMT master *@earth_mss.cpt* CPT) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

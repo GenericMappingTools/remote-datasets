@@ -47,7 +47,7 @@ See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more informatio
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the mercury_relief files being placed in an ``mercury/mercury_relief`` sub-directory. If you
-do not specify a CPT then the default CPT for this dataset (the GMT master *@mercury_relief* CPT) will be used.
+do not specify a CPT then the default CPT for this dataset (the GMT master *@mercury_relief.cpt* CPT) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

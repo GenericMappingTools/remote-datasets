@@ -9,7 +9,7 @@ CNES Earth Mean Dynamic Topography
    :align: center
 
 Geodynamics studies have an interest in the Earth's Mean Dynamic Topography (MDT). CNES has
-provided such a grid (Jousset_et_al., 2022) post-processed by IGPP.
+provided such a grid (Jousset et al., 2022) post-processed by IGPP.
 
 Usage
 ~~~~~
@@ -39,7 +39,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
 the earth_mdt files being placed in an ``earth/earth_mdt`` sub-directory. If you do not
-specify a CPT, the default CPT for this dataset (the GMT master *@earth_mdt* CPT) will be used.
+specify a CPT, the default CPT for this dataset (the GMT master *@earth_mdt.cpt* CPT) will be used.
 
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~

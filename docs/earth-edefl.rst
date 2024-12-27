@@ -50,7 +50,7 @@ See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more informatio
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
-the earth_faa files being placed in an ``earth/earth_faa`` sub-directory. If you do not
+the earth_edefl files being placed in an ``earth/earth_edefl`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_defl.cpt*) will be used.
 
 Technical Information

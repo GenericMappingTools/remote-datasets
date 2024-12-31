@@ -1,5 +1,5 @@
-IGPP Earth East-West Deflections
---------------------------------
+IGPP Earth East-West Deflection
+-------------------------------
 .. figure:: /_static/igpp.png
    :align: right
    :scale: 20 %
@@ -14,7 +14,7 @@ to assess the degree of isostasy.
 `David Sandwell and colleagues <https://topex.ucsd.edu/marine_grav/mar_grav.html>`_
 have provided altimetry-based marine FAA and similar grids since 1995. The latest version 32 is now
 available for remote use in GMT. Over land these grids are filled in by the EGM2008 model
-[Pavlis et al., 2012]. This data set contains the east-west deflections of the vertical
+[Pavlis et al., 2012]. This dataset contains the east-west deflection of the vertical
 in micro-radians. Polar regions beyond ±80˚ are not covered and are set to NaN.
 
 Usage
@@ -60,7 +60,8 @@ We scale and reformat the original data to take up very little space so that dow
 from the servers are as fast as possible. For the EDEFL grid this means
 we chose 1/32 micro-radians as the smallest data unit, which is well below the uncertainties in the
 model. Data are scaled and shifted to fit in a short integer grid that is highly compressed
-by netCDF lossless compression and chunking. The data are reported in micro-radians.
+by netCDF lossless compression and chunking. The data are reported in micro-radians, where
+positive (negative) values indicate a deflection to the east (west).
 
 Data References
 ~~~~~~~~~~~~~~~

@@ -45,7 +45,7 @@ for pixel-registered grids; gridline-registered grids increment dimensions by on
   ==== ================= === =======  =======================================
 
 Note that resolutions 05m and higher are tiled.
-See :gmt-docs:`Remote Data Sets <datasets/remote-data.html>` for more information.
+See :gmt-docs:`Remote Datasets <datasets/remote-data.html>` for more information.
 
 See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for when resolution codes are optional or required.
 All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with

@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+2025-03-19
+^^^^^^^^^^
+
+- ``earth_wdmam``: Update dataset source from version 2.1 to 2.2 [`Choi et al., 2025 <https://www.wdmam.org/>`_].
+
 2024-08-08
 ^^^^^^^^^^
 

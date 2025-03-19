@@ -9,7 +9,7 @@ scientific project under the auspices of IAGA (International Association of Geom
 and Aeronomy) and CGMW (Commission for the Geological Map of the World), aiming to compile
 and make available magnetic anomalies caused by the Earth lithosphere, on continental and
 oceanic areas, in a comprehensive way, all over the World.
-At 3 arc-minutes, the latest WDMAM version 2.1 [Choi et al., 2023] grid is now available
+At 3 arc-minutes, the latest WDMAM version 2.2 [Choi et al., 2025] grid is now available
 for remote use in GMT.
 
 Usage
@@ -59,7 +59,7 @@ Data References
 ~~~~~~~~~~~~~~~
 
 #. Choi, Y., Dyment, J., Lesur, V., Garcia Reyes, Catalan, M., Ishihara, T., Litvinova, T., Hamoudi, M.,
-   the WDMAM Task Force*, and the WDMAM Data Providers**, World Digital Magnetic Anomaly Map version 2.1, map available at https://www.wdmam.org/.
+   the WDMAM Task Force*, and the WDMAM Data Providers**, World Digital Magnetic Anomaly Map version 2.2, map available at https://www.wdmam.org/.
 
   \* The WDMAM Task Force: J. Dyment (chair), M. Catalan (co-chair), A. de Santis, M. Hamoudi, T. Ishihara, J. Korhonen, V. Lesur, T. Litvinova, J. Luis, B. Meyer, P. Milligan, M. Nakanishi, S. Okuma, M. Pilkington, M. Purucker, D. Ravat, E. Thébault. (alphabetical order)
 

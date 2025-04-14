@@ -106,6 +106,12 @@ Information about the GMT data server and mirrors can be found on the
         :img-bottom: /_static/GMT_earth_daynight_thumbnail.jpg
         :text-align: center
 
+    .. grid-item-card:: NASA SRTM Relief
+        :link: srtm-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_srtm_relief_thumbnail.jpg
+        :text-align: center
+
     .. grid-item-card:: WDMAM World Digital Magnetic Anomaly Map
         :link: earth-wdmam
         :link-type: doc

@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2025-08-12
+2025-08-13
 ^^^^^^^^^^
 
 - ``earth_gebco``: Update dataset source from version 2024 to 2025.[`GEBCO Compilation Group, 2025, GEBCO 2025 Grid <https://www.gebco.net/data_and_products/gridded_bathymetry_data/>`_].

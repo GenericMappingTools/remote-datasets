@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NASA Venus Relief &mdash; Remote Datasets  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/style.css?v=c0f311c1" />
+
+  
+    <link rel="shortcut icon" href="_static/favicon.png"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Changelog" href="changes.html" />
+    <link rel="prev" title="USGS Pluto Relief" href="pluto-relief.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Remote Datasets
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Datasets</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="earth-age.html">EarthByte Earth Seafloor Crustal Age</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-daynight.html">NASA Earth Day/Night Images</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-edefl.html">IGPP Earth East-West Deflection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-dist.html">GSHHG Earth Distance to Shoreline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-faa.html">IGPP Earth Free-Air Anomaly</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-faaerror.html">IGPP Earth Free-Air Anomaly Uncertainty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-gebco.html">GEBCO Earth Reliefs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-geoid.html">EGM2008 Earth Geoid</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-mag.html">EMAG2 Earth Magnetic Anomaly Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-mask.html">GSHHG Earth Mask</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-mdt.html">CNES Earth Mean Dynamic Topography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-mss.html">CNES Earth Mean Sea Surface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-ndefl.html">IGPP Earth North-South Deflection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-relief.html">IGPP Earth Relief</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-vgg.html">IGPP Earth Vertical Gravity Gradient</a></li>
+<li class="toctree-l1"><a class="reference internal" href="earth-wdmam.html">WDMAM World Digital Magnetic Anomaly Map</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mars-relief.html">NASA Mars Relief</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mercury-relief.html">USGS Mercury Relief</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moon-relief.html">USGS Moon Relief</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pluto-relief.html">USGS Pluto Relief</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">NASA Venus Relief</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technical-information">Technical Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-references">Data References</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Remote Datasets</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">NASA Venus Relief</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/venus-relief.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="nasa-venus-relief">
+<h1>NASA Venus Relief<a class="headerlink" href="#nasa-venus-relief" title="Link to this heading"></a></h1>
+<figure class="align-right">
+<a class="reference internal image-reference" href="_images/igpp.png"><img alt="_images/igpp.png" src="_images/igpp.png" style="width: 72.0px; height: 47.800000000000004px;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/GMT_venus_relief.jpg"><img alt="_images/GMT_venus_relief.jpg" src="_images/GMT_venus_relief.jpg" style="width: 709.6px; height: 355.20000000000005px;" />
+</a>
+</figure>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading"></a></h2>
+<p>You access the global Magellan Venus relief grid by specifying the special name</p>
+<blockquote>
+<div><p>&#64;venus_relief[_<em>rru</em>[_<em>reg</em>]]</p>
+</div></blockquote>
+<p>This grid contains observed relief measured via altimetry.
+The following codes for the optional <em>rr</em><em>u</em> and <em>reg</em> are supported (dimensions are listed
+for pixel-registered grids; gridline-registered grids increment dimensions by one):</p>
+<blockquote id="tbl-venus-relief">
+<div><table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Dimensions</p></th>
+<th class="head"><p>Reg</p></th>
+<th class="head"><p>Size</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>01d</p></td>
+<td><p>360 x    180</p></td>
+<td><p>g,p</p></td>
+<td><p>107 KB</p></td>
+<td><p>1 arc degree Venus relief (Magellan &#64; 299 km)</p></td>
+</tr>
+<tr class="row-odd"><td><p>30m</p></td>
+<td><p>720 x    360</p></td>
+<td><p>g,p</p></td>
+<td><p>374 KB</p></td>
+<td><p>30 arc minute Venus relief (Magellan &#64; 149 km)</p></td>
+</tr>
+<tr class="row-even"><td><p>20m</p></td>
+<td><p>1080 x    540</p></td>
+<td><p>g,p</p></td>
+<td><p>783 KB</p></td>
+<td><p>20 arc minute Venus relief (Magellan &#64; 100 km)</p></td>
+</tr>
+<tr class="row-odd"><td><p>15m</p></td>
+<td><p>1440 x    720</p></td>
+<td><p>g,p</p></td>
+<td><p>1.3 MB</p></td>
+<td><p>15 arc minute Venus relief (Magellan &#64; 75 km)</p></td>
+</tr>
+<tr class="row-even"><td><p>10m</p></td>
+<td><p>2160 x   1080</p></td>
+<td><p>g,p</p></td>
+<td><p>2.8 MB</p></td>
+<td><p>10 arc minute Venus relief (Magellan &#64; 50 km)</p></td>
+</tr>
+<tr class="row-odd"><td><p>06m</p></td>
+<td><p>3600 x   1800</p></td>
+<td><p>g,p</p></td>
+<td><p>7.4 MB</p></td>
+<td><p>6 arc minute Venus relief (Magellan &#64; 30 km)</p></td>
+</tr>
+<tr class="row-even"><td><p>05m</p></td>
+<td><p>4320 x   2160</p></td>
+<td><p>g,p</p></td>
+<td><p>10 MB</p></td>
+<td><p>5 arc minute Venus relief (Magellan &#64; 25 km)</p></td>
+</tr>
+<tr class="row-odd"><td><p>04m</p></td>
+<td><p>5400 x   2700</p></td>
+<td><p>g,p</p></td>
+<td><p>16 MB</p></td>
+<td><p>4 arc minute Venus relief (Magellan &#64; 20 km)</p></td>
+</tr>
+<tr class="row-even"><td><p>03m</p></td>
+<td><p>7200 x   3600</p></td>
+<td><p>g,p</p></td>
+<td><p>27 MB</p></td>
+<td><p>3 arc minute Venus relief (Magellan &#64; 15 km)</p></td>
+</tr>
+<tr class="row-odd"><td><p>02m</p></td>
+<td><p>10800 x   5400</p></td>
+<td><p>g,p</p></td>
+<td><p>57 MB</p></td>
+<td><p>2 arc minute Venus relief (Magellan &#64; 10 km)</p></td>
+</tr>
+<tr class="row-even"><td><p>01m</p></td>
+<td><p>21600 x  10800</p></td>
+<td><p>g,p</p></td>
+<td><p>208 MB</p></td>
+<td><p>1 arc minute Venus relief (original)</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Note that resolutions 05m and higher are tiled.
+See <a class="extlink-gmt-docs reference external" href="https://docs.generic-mapping-tools.org/latest/datasets/remote-data.html">Remote Datasets</a> for more information.</p>
+<p>See <a class="extlink-gmt-docs reference external" href="https://docs.generic-mapping-tools.org/latest/datasets/remote-data.html#usage">GMT remote dataset usage</a> for when resolution codes are optional or required.
+All of these data will, when downloaded, be placed in your ~/.gmt/server directory, with
+the venus_relief files being placed in an <code class="docutils literal notranslate"><span class="pre">venus/venus_relief</span></code> sub-directory. If you
+do not specify a CPT then the default CPT for this dataset (the GMT master <em>&#64;venus_relief.cpt</em> CPT) will be used.</p>
+</section>
+<section id="technical-information">
+<h2>Technical Information<a class="headerlink" href="#technical-information" title="Link to this heading"></a></h2>
+<p>As you see, the 02m and lower resolutions are all derivatives of USGS’ 1 arc-minute Sandwell_Final_Topo_Venus_2012_meter.grd
+(Sandwell, 2012). We have downsampled it via Cartesian Gaussian filtering to prevent
+aliasing while preserving the latitude-dependent resolution in the original 12.1468873601 arc sec grid.
+The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
+are available in both gridline- and pixel-registered formats except the original pixel-registered
+grid at 12.1468873601 arc-seconds resolution (here called &#64;venus_relief_12s). Data resolution is 0.5 meter.</p>
+</section>
+<section id="data-references">
+<h2>Data References<a class="headerlink" href="#data-references" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Magellan: [<a class="reference external" href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940013181.pdf">https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940013181.pdf</a>].</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pluto-relief.html" class="btn btn-neutral float-left" title="USGS Pluto Relief" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="changes.html" class="btn btn-neutral float-right" title="Changelog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021-2025, The GMT Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

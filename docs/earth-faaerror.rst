@@ -9,7 +9,7 @@ IGPP Earth Free-Air Anomaly Uncertainty
    :align: center
 
 `David Sandwell and colleagues <https://topex.ucsd.edu/marine_grav/mar_grav.html>`_
-have provided altimetry-based marine FAA and similar grids since 1995. The latest version 32 is now
+have provided altimetry-based marine FAA and similar grids since 1995. The latest version 33 is now
 available for remote use in GMT. Over land these grids are filled in by the EGM2008 model [Pavlis et al., 2012].
 Polar regions beyond ±80˚ are not covered and are set to NaN.
 This data is a companion to the FAA anomalies but contains the uncertainty of each

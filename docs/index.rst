@@ -168,6 +168,7 @@ Information about the GMT data server and mirrors can be found on the
    earth-ndefl
    earth-relief
    earth-vgg
+   srtm-relief
    earth-wdmam
    mars-relief
    mercury-relief

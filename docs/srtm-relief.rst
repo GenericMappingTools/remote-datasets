@@ -1,5 +1,5 @@
 NASA SRTM Relief
------------------
+----------------
 
 .. figure:: /_static/nasa-logo-web-rgb.png
    :align: right

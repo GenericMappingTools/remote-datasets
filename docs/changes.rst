@@ -6,8 +6,8 @@ Changelog
 
 - ``earth_faa``: Update dataset source from version 32 to 33.
 - ``earth_faaerror``: Update dataset source from version 32 to 33.
-- ``earth_edfl``: Update dataset source from version 32 to 33.
-- ``earth_ndfl``: Update dataset source from version 32 to 33.
+- ``earth_edefl``: Update dataset source from version 32 to 33.
+- ``earth_ndefl``: Update dataset source from version 32 to 33.
 - ``earth_vgg``: Update dataset source from version 32 to 33.
 
 2025-08-13

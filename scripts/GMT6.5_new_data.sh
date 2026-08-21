@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# FIgure showing new data in 6.5 for showing in news, instagram etc.
+# Figure showing new data in 6.5 for showing in news, instagram etc.
 
 cat << EOF > list.txt
 -120	67.5    GSHHS DIST
@@ -47,7 +47,7 @@ gmt begin GMT_new_data jpg
 		gmt text -F+f8p,1 list.txt
 		gmt grdimage @mercury_relief_10m -I -c	# Mercury Messenger topography
 		gmt grdimage @moon_relief_10m -I -c		# Moon LOLA topography
-		gmt grdimage @pluto_relief_10m -I -c	# Pluto New Horizon topography
+		gmt grdimage @pluto_relief_10m -I -c	# Pluto New Horizons topography
 		gmt grdimage @venus_relief_10m -I -c	# Venus Magellan topography
 	gmt subplot end
 gmt end show

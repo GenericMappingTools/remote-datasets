@@ -48,6 +48,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the venus_relief files being placed in an ``venus/venus_relief`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *@venus_relief.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the Venus Magellan relief at 1 arc degree resolution, try::
+
+    gmt grdimage @venus_relief_01d -Baf -pdf venus_relief
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

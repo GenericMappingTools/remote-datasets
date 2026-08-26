@@ -53,6 +53,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_edefl files being placed in an ``earth/earth_edefl`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_defl.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the east-west deflection of the vertical at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_edefl_01d -Baf -pdf earth_edefl
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

@@ -47,6 +47,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_mss files being placed in an ``earth/earth_mss`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (the GMT master *@earth_mss.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the mean sea surface at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_mss_01d -Baf -pdf earth_mss
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

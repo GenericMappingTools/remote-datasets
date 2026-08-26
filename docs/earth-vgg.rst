@@ -51,6 +51,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_vgg files being placed in an ``earth/earth_vgg`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_vgg.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the vertical gravity gradient at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_vgg_01d -Baf -pdf earth_vgg
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

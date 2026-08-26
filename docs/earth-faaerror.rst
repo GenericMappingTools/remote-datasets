@@ -51,6 +51,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_faaerror files being placed in an ``earth/earth_faaerror`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_faaerror.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the free-air gravity anomaly uncertainty at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_faaerror_01d -Baf -pdf earth_faaerror
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

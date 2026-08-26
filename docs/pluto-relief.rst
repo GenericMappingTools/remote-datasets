@@ -49,6 +49,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the pluto_relief files being placed in an ``pluto/pluto_relief`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *@pluto_relief.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the Pluto New Horizons relief at 1 arc degree resolution, try::
+
+    gmt grdimage @pluto_relief_01d -Baf -pdf pluto_relief
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

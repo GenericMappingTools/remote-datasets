@@ -57,6 +57,13 @@ the earth_gebco files being placed in an ``earth/earth_gebco`` sub-directory,
 and earth_gebcosi files in an ``earth/earth_gebcosi`` sub-directory. If you
 do not specify a CPT then the default CPT (the GMT master *geo* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the GEBCO global relief at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_gebco_01d -Baf -pdf earth_gebco
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

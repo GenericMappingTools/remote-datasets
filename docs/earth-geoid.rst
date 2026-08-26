@@ -44,6 +44,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_geoid files being placed in an ``earth/earth_geoid`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (the GMT master *turbo* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the EGM2008 geoid at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_geoid_01d -Baf -pdf earth_geoid
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

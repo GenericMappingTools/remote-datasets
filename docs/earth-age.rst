@@ -49,6 +49,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_age files being placed in an ``earth/earth_age`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_age.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the global seafloor crustal age at 1 arc degree resolution using the default CPT, try::
+
+    gmt grdimage @earth_age_01d -Baf -pdf earth_age
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

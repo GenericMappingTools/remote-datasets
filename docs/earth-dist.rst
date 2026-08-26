@@ -44,6 +44,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_dist files being placed in an ``earth/earth_dist`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (the GMT master *@earth_dist.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the distance to the nearest shoreline at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_dist_01d -Baf -pdf earth_dist
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

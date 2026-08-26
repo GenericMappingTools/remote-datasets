@@ -52,6 +52,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_faa files being placed in an ``earth/earth_faa`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_faa.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the free-air gravity anomaly at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_faa_01d -Baf -pdf earth_faa
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

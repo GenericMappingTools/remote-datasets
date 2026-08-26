@@ -59,6 +59,13 @@ the earth_relief files being placed in an ``earth/earth_relief`` sub-directory a
 the earth_synbath files in an ``earth/earth_synbath`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *geo* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the global relief at 1 arc degree resolution using the default *geo* CPT, try::
+
+    gmt grdimage @earth_relief_01d -Baf -pdf earth_relief
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

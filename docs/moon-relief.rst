@@ -51,6 +51,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the moon_relief files being placed in an ``moon/moon_relief`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *@moon_relief.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the Moon LOLA relief at 1 arc degree resolution, try::
+
+    gmt grdimage @moon_relief_01d -Baf -pdf moon_relief
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

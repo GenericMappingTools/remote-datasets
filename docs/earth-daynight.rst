@@ -57,6 +57,14 @@ See :gmt-docs:`GMT remote dataset usage <datasets/remote-data.html#usage>` for w
 All of these images will, when downloaded, be placed in your ~/.gmt/server directory under
 the ``earth/earth_day`` and ``earth/earth_night`` sub-directories.
 
+Examples
+~~~~~~~~
+
+To create PDF maps of the day and night Earth images at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_day_01d -Baf -pdf earth_day
+    gmt grdimage @earth_night_01d -Baf -pdf earth_night
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

@@ -49,6 +49,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the mercury_relief files being placed in an ``mercury/mercury_relief`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *@mercury_relief.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the Mercury Messenger relief at 1 arc degree resolution, try::
+
+    gmt grdimage @mercury_relief_01d -Baf -pdf mercury_relief
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

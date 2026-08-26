@@ -41,6 +41,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_mdt files being placed in an ``earth/earth_mdt`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (the GMT master *@earth_mdt.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the mean dynamic topography at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_mdt_01d -Baf -pdf earth_mdt
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

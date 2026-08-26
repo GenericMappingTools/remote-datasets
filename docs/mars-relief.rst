@@ -51,6 +51,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the mars_relief files being placed in an ``mars/mars_relief`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *@mars_relief.cpt* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the Mars MOLA relief at 1 arc degree resolution, try::
+
+    gmt grdimage @mars_relief_01d -Baf -pdf mars_relief
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

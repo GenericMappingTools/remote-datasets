@@ -53,6 +53,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the earth_ndefl files being placed in an ``earth/earth_ndefl`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_defl.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the north-south deflection of the vertical at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_ndefl_01d -Baf -pdf earth_ndefl
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

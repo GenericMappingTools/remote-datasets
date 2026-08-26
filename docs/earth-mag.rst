@@ -52,6 +52,13 @@ the earth_mag files being placed in an ``earth/earth_mag`` sub-directory and
 the earth_mag4km files in an ``earth/earth_mag4km`` sub-directory. If you do not
 specify a CPT, the default CPT for this dataset (*@earth_mag.cpt*) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the EMAG2 magnetic anomaly at 1 arc degree resolution, try::
+
+    gmt grdimage @earth_mag_01d -Baf -pdf earth_mag
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

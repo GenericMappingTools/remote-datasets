@@ -39,6 +39,13 @@ All of these data will, when downloaded, be placed in your ~/.gmt/server directo
 the srtm_relief files being placed in an ``earth/earth_relief`` sub-directory. If you
 do not specify a CPT then the default CPT for this dataset (the GMT master *geo* CPT) will be used.
 
+Examples
+~~~~~~~~
+
+To create a PDF map of the 3 arc second SRTM relief over the Grand Canyon, Arizona, try::
+
+    gmt grdimage @srtm_relief_03s -R-112.3/-111.8/35.9/36.4 -Baf -pdf grand_canyon
+
 Technical Information
 ~~~~~~~~~~~~~~~~~~~~~
 

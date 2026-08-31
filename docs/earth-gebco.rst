@@ -81,10 +81,10 @@ GEBCO 2025 (here called @earth_gebco_15s) and the gridline-registered SRTM tiles
 
 We also scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible. For the earth_gebco grids this means we chose 1 meter
-as the smallest data unit, which is well below the uncertainties in the data. Elevations are
+as the grid z step, which is well below the uncertainties in the data. Elevations are
 stored in a short integer grid that is highly compressed by netCDF lossless compression and
 chunking. The 3 and 1 arc second SRTM tiles are instead served as losslessly compressed
-JPEG2000 tiles whose smallest data unit is 1 meter.
+JPEG2000 tiles whose grid z step is 1 meter.
 
 **Note**: Because of this quantization, these grids should be used with care in morphometric
 studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias

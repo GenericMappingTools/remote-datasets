@@ -68,7 +68,7 @@ grid at 56.25 arc-seconds resolution (here called @mercury_relief_56s).
 
 We also scale and reformat the original data to take up very little space so that downloads
 from the servers are as fast as possible. For the mercury_relief grids this means we chose 0.5
-meter as the smallest data unit, which is well below the uncertainties in the data. Elevations
+meter as the grid z step, which is well below the uncertainties in the data. Elevations
 are scaled and shifted to fit in a short integer grid that is highly compressed by netCDF
 lossless compression and chunking.
 

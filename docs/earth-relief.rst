@@ -90,12 +90,14 @@ SRTM tiles are instead served as losslessly compressed JPEG2000 tiles whose smal
 unit is 1 meter.
 
 **Note**: Because of this quantization, these grids should be used with care in morphometric
-studies (e.g., slope, curvature or roughness analyses). We suggest using the original
-dataset instead for such applications.
+studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias
+slope and aspect calculations [Carter, 1992]. We suggest using the original dataset instead for
+such applications.
 
 Data References
 ~~~~~~~~~~~~~~~
 
+#. Carter, J.R., 1992: [https://doi.org/10.3138/aj35-34h3-524k-0685].
 #. SRTM15+V2.7: [https://doi.org/10.1029/2019EA000658].
 #. SYNBATH_V2.0: [https://doi.org/10.1029/2021EA002069].
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].

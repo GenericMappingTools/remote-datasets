@@ -75,10 +75,12 @@ scaled and shifted to fit in a short integer grid that is highly compressed by n
 compression and chunking. The data are reported in meters.
 
 **Note**: Because of this quantization, these grids should be used with care in morphometric
-studies (e.g., slope, curvature or roughness analyses). We suggest using the original
-dataset instead for such applications.
+studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias
+slope and aspect calculations [Carter, 1992]. We suggest using the original dataset instead for
+such applications.
 
 Data References
 ~~~~~~~~~~~~~~~
 
+#. Carter, J.R., 1992: [https://doi.org/10.3138/aj35-34h3-524k-0685].
 #. MOLA: [https://doi.org/10.1029/2000JE001426].

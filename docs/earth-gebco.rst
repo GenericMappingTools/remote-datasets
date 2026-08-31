@@ -88,12 +88,14 @@ are instead served as losslessly compressed JPEG2000 tiles whose smallest data u
 1 meter.
 
 **Note**: Because of this quantization, these grids should be used with care in morphometric
-studies (e.g., slope, curvature or roughness analyses). We suggest using the original
-dataset instead for such applications.
+studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias
+slope and aspect calculations [Carter, 1992]. We suggest using the original dataset instead for
+such applications.
 
 Data References
 ~~~~~~~~~~~~~~~
 
+#. Carter, J.R., 1992: [https://doi.org/10.3138/aj35-34h3-524k-0685].
 #. GEBCO Compilation Group (2025) GEBCO 2025 Grid (https://doi.org/10.5285/37c52e96-24ea-67ce-e063-7086abc05f29)
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].
 #. SRTMGL1 tiles: [https://lpdaac.usgs.gov/products/srtmgl1v003].

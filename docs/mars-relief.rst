@@ -69,10 +69,10 @@ are available in both gridline- and pixel-registered formats except the original
 grid at 12.1468873601 arc-seconds resolution (here called @mars_relief_12s).
 
 We also scale and reformat the original data to take up very little space so that downloads
-from the servers are as fast as possible. For the mars_relief grids this means we chose 0.5 meter
-as the smallest data unit, which is well below the uncertainties in the data. Elevations are
-scaled and shifted to fit in a short integer grid that is highly compressed by netCDF lossless
-compression and chunking. The data are reported in meters.
+from the servers are as fast as possible. For the mars_relief grids this means we chose 0.5
+meter as the smallest data unit, which is well below the uncertainties in the data. Elevations
+are scaled and shifted to fit in a short integer grid that is highly compressed by netCDF
+lossless compression and chunking.
 
 **Note**: Because of this quantization, these grids should be used with care in morphometric
 studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias

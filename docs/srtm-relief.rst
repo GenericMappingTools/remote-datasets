@@ -55,9 +55,9 @@ and assembled into a seamless grid using grdblend.
 **Note**: This dataset is utilized by other relief grids (e.g., earth_relief) when resolutions of 03s or 01s are requested. In these cases, the other grid is automatically up-sampled to fill in missing values over the oceans and in high-latitude regions (above 60°).
 
 We reformat the original data to take up very little space so that downloads from the servers
-are as fast as possible. Elevations are stored as short integers whose smallest data unit is
-1 meter and the JPEG2000 compression is lossless, hence the values are identical to those of
-the original SRTM tiles. The data are reported in meters.
+are as fast as possible. Elevations are stored as short integers whose smallest data unit is 1
+meter and the JPEG2000 compression is lossless, hence the values are identical to those of the
+original SRTM tiles.
 
 Data References
 ~~~~~~~~~~~~~~~

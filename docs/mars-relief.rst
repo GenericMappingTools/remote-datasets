@@ -66,9 +66,21 @@ As you see, the 01m and lower resolutions are all derivatives of USGS' 12.146887
 aliasing while preserving the latitude-dependent resolution in the original 12.1468873601 arc sec grid.
 The full (6 sigma) filter-widths are indicated in parenthesis. Almost all grids
 are available in both gridline- and pixel-registered formats except the original pixel-registered
-grid at 12.1468873601 arc-seconds resolution (here called @mars_relief_12s). Data resolution is 0.5 meter.
+grid at 12.1468873601 arc-seconds resolution (here called @mars_relief_12s).
+
+We also scale and reformat the original data to take up very little space so that downloads
+from the servers are as fast as possible. For the mars_relief grids this means we chose 0.5
+meter as the grid z step, which is well below the uncertainties in the data. Elevations
+are scaled and shifted to fit in a short integer grid that is highly compressed by netCDF
+lossless compression and chunking.
+
+**Note**: Because of this quantization, these grids should be used with care in morphometric
+studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias
+slope and aspect calculations [Carter, 1992]. We suggest using the original dataset instead for
+such applications.
 
 Data References
 ~~~~~~~~~~~~~~~
 
+#. Carter, J.R., 1992: [https://doi.org/10.3138/aj35-34h3-524k-0685].
 #. MOLA: [https://doi.org/10.1029/2000JE001426].

@@ -81,9 +81,22 @@ you may use the special names @srtm_relief_03s or @srtm_relief_01s instead. Almo
 are available in both gridline- and pixel-registered formats except the original pixel-registered
 SRTM15+V2.7 (here called @earth_relief_15s) and the gridline-registered SRTM tiles.
 
+We also scale and reformat the original data to take up very little space so that downloads
+from the servers are as fast as possible. For the earth_relief grids this means we chose 0.5
+meter as the grid z step, which is well below the uncertainties in the data. Elevations
+are scaled to fit in a short integer grid that is highly compressed by netCDF lossless
+compression and chunking. The 3 and 1 arc second SRTM tiles are instead served as losslessly
+compressed JPEG2000 tiles whose grid z step is 1 meter.
+
+**Note**: Because of this quantization, these grids should be used with care in morphometric
+studies (e.g., slope, curvature or roughness analyses), since even sub-meter rounding can bias
+slope and aspect calculations [Carter, 1992]. We suggest using the original dataset instead for
+such applications.
+
 Data References
 ~~~~~~~~~~~~~~~
 
+#. Carter, J.R., 1992: [https://doi.org/10.3138/aj35-34h3-524k-0685].
 #. SRTM15+V2.7: [https://doi.org/10.1029/2019EA000658].
 #. SYNBATH_V2.0: [https://doi.org/10.1029/2021EA002069].
 #. SRTMGL3 tiles: [https://lpdaac.usgs.gov/products/srtmgl3v003].

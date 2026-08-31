@@ -13,28 +13,28 @@ Information about the GMT data server and mirrors can be found on the
 
    The highest resolution data for Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
 
-Miscellaneous
-~~~~~~~~~~~~~
+Geodesy
+~~~~~~~
 
 .. grid:: 1 2 3 3
     :gutter: 2
 
-    .. grid-item-card:: EarthByte Earth Seafloor Crustal Age
-        :link: earth-age
+    .. grid-item-card:: EGM2008 Earth Geoid
+        :link: earth-geoid
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_age_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_geoid_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: GSHHG Earth Distance to Shoreline
-        :link: earth-dist
+    .. grid-item-card:: CNES Earth Mean Dynamic Topography
+        :link: earth-mdt
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_dist_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_mdt_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: GSHHG Earth Mask
-        :link: earth-mask
+    .. grid-item-card:: CNES Earth Mean Sea Surface
+        :link: earth-mss
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_mask_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_mss_thumbnail.jpg
         :text-align: center
 
 Gravity
@@ -73,28 +73,16 @@ Gravity
         :img-bottom: /_static/GMT_earth_vgg_thumbnail.jpg
         :text-align: center
 
-Geodesy
-~~~~~~~
+Images
+~~~~~~
 
 .. grid:: 1 2 3 3
     :gutter: 2
 
-    .. grid-item-card:: EGM2008 Earth Geoid
-        :link: earth-geoid
+    .. grid-item-card:: NASA Earth Day/Night Images
+        :link: earth-daynight
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_geoid_thumbnail.jpg
-        :text-align: center
-
-    .. grid-item-card:: CNES Earth Mean Dynamic Topography
-        :link: earth-mdt
-        :link-type: doc
-        :img-bottom: /_static/GMT_earth_mdt_thumbnail.jpg
-        :text-align: center
-
-    .. grid-item-card:: CNES Earth Mean Sea Surface
-        :link: earth-mss
-        :link-type: doc
-        :img-bottom: /_static/GMT_earth_mss_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_daynight_thumbnail.jpg
         :text-align: center
 
 Magnetics
@@ -115,40 +103,28 @@ Magnetics
         :img-bottom: /_static/GMT_earth_wdmam_thumbnail.jpg
         :text-align: center
 
-Topography
-~~~~~~~~~~
+Miscellaneous
+~~~~~~~~~~~~~
 
 .. grid:: 1 2 3 3
     :gutter: 2
 
-    .. grid-item-card:: GEBCO Earth Relief
-        :link: earth-gebco
+    .. grid-item-card:: EarthByte Earth Seafloor Crustal Age
+        :link: earth-age
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_age_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: IGPP Earth Relief
-        :link: earth-relief
+    .. grid-item-card:: GSHHG Earth Distance to Shoreline
+        :link: earth-dist
         :link-type: doc
-        :img-bottom: /_static/GMT_earth_relief_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_dist_thumbnail.jpg
         :text-align: center
 
-    .. grid-item-card:: NASA SRTM Relief
-        :link: srtm-relief
+    .. grid-item-card:: GSHHG Earth Mask
+        :link: earth-mask
         :link-type: doc
-        :img-bottom: /_static/GMT_srtm_relief_thumbnail.jpg
-        :text-align: center
-
-Images
-~~~~~~
-
-.. grid:: 1 2 3 3
-    :gutter: 2
-
-    .. grid-item-card:: NASA Earth Day/Night Images
-        :link: earth-daynight
-        :link-type: doc
-        :img-bottom: /_static/GMT_earth_daynight_thumbnail.jpg
+        :img-bottom: /_static/GMT_earth_mask_thumbnail.jpg
         :text-align: center
 
 Other Celestial Bodies
@@ -187,14 +163,38 @@ Other Celestial Bodies
         :img-bottom: /_static/GMT_venus_relief_thumbnail.jpg
         :text-align: center
 
+Topography
+~~~~~~~~~~
+
+.. grid:: 1 2 3 3
+    :gutter: 2
+
+    .. grid-item-card:: GEBCO Earth Relief
+        :link: earth-gebco
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: IGPP Earth Relief
+        :link: earth-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_relief_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: NASA SRTM Relief
+        :link: srtm-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_srtm_relief_thumbnail.jpg
+        :text-align: center
+
 
 .. toctree::
    :hidden:
-   :caption: Miscellaneous
+   :caption: Geodesy
 
-   earth-age
-   earth-dist
-   earth-mask
+   earth-geoid
+   earth-mdt
+   earth-mss
 
 .. toctree::
    :hidden:
@@ -208,11 +208,9 @@ Other Celestial Bodies
 
 .. toctree::
    :hidden:
-   :caption: Geodesy
+   :caption: Images
 
-   earth-geoid
-   earth-mdt
-   earth-mss
+   earth-daynight
 
 .. toctree::
    :hidden:
@@ -223,17 +221,11 @@ Other Celestial Bodies
 
 .. toctree::
    :hidden:
-   :caption: Topography
+   :caption: Miscellaneous
 
-   earth-gebco
-   earth-relief
-   srtm-relief
-
-.. toctree::
-   :hidden:
-   :caption: Images
-
-   earth-daynight
+   earth-age
+   earth-dist
+   earth-mask
 
 .. toctree::
    :hidden:
@@ -244,6 +236,14 @@ Other Celestial Bodies
    mercury-relief
    pluto-relief
    venus-relief
+
+.. toctree::
+   :hidden:
+   :caption: Topography
+
+   earth-gebco
+   earth-relief
+   srtm-relief
 
 .. toctree::
    :caption: Reference

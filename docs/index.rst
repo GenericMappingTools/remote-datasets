@@ -152,7 +152,7 @@ Other Celestial Bodies
 
 .. note::
 
-   The highest resolution data for Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
+   The highest resolution data for Mars, Mercury, Moon, Pluto and Venus requires GMT 6.5 or later.
 
 
 .. grid:: 1 2 3 3

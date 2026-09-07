@@ -9,9 +9,29 @@ Welcome to the documentation for the remote datasets available through GMT's
 Information about the GMT data server and mirrors can be found on the
 `GMT organization website <https://www.generic-mapping-tools.org/mirrors/>`_.
 
-.. note::
+Elevation and Bathymetry
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-   The highest resolution data for Mars, Mercury, Moon and Pluto requires GMT 6.5 or later.
+.. grid:: 1 2 3 3
+    :gutter: 2
+
+    .. grid-item-card:: GEBCO Earth Relief
+        :link: earth-gebco
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: IGPP Earth Relief
+        :link: earth-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_earth_relief_thumbnail.jpg
+        :text-align: center
+
+    .. grid-item-card:: NASA SRTM Relief
+        :link: srtm-relief
+        :link-type: doc
+        :img-bottom: /_static/GMT_srtm_relief_thumbnail.jpg
+        :text-align: center
 
 Geodesy
 ~~~~~~~
@@ -130,6 +150,11 @@ Miscellaneous
 Other Celestial Bodies
 ~~~~~~~~~~~~~~~~~~~~~~
 
+.. note::
+
+   The highest resolution data for Mars, Mercury, Moon, Pluto and Venus requires GMT 6.5 or later.
+
+
 .. grid:: 1 2 3 3
     :gutter: 2
 
@@ -163,30 +188,14 @@ Other Celestial Bodies
         :img-bottom: /_static/GMT_venus_relief_thumbnail.jpg
         :text-align: center
 
-Topography
-~~~~~~~~~~
 
-.. grid:: 1 2 3 3
-    :gutter: 2
+.. toctree::
+   :hidden:
+   :caption: Elevation and Bathymetry
 
-    .. grid-item-card:: GEBCO Earth Relief
-        :link: earth-gebco
-        :link-type: doc
-        :img-bottom: /_static/GMT_earth_gebco_thumbnail.jpg
-        :text-align: center
-
-    .. grid-item-card:: IGPP Earth Relief
-        :link: earth-relief
-        :link-type: doc
-        :img-bottom: /_static/GMT_earth_relief_thumbnail.jpg
-        :text-align: center
-
-    .. grid-item-card:: NASA SRTM Relief
-        :link: srtm-relief
-        :link-type: doc
-        :img-bottom: /_static/GMT_srtm_relief_thumbnail.jpg
-        :text-align: center
-
+   earth-gebco
+   earth-relief
+   srtm-relief
 
 .. toctree::
    :hidden:
@@ -236,14 +245,6 @@ Topography
    mercury-relief
    pluto-relief
    venus-relief
-
-.. toctree::
-   :hidden:
-   :caption: Topography
-
-   earth-gebco
-   earth-relief
-   srtm-relief
 
 .. toctree::
    :caption: Reference

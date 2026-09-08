@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Makes crustal age map for docs/earth-age.rst
+# Makes crustal age map for docs/earth-age.md
 gmt begin GMT_earth_age png
 	gmt set MAP_TICK_LENGTH 2p MAP_ANNOT_OFFSET 2p MAP_FRAME_PEN 0.5p GMT_DATA_SERVER candidate
 	gmt grdimage @earth_age_10m -JQ0/15c -C@earth_age.cpt

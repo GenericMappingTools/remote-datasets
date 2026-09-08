@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Makes relief maps for every planet in list for docs/"planet"-relief.rst
+# Makes relief maps for every planet in list for docs/"planet"-relief.md
 
 list=(mars mercury moon pluto venus)
 

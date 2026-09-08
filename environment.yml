@@ -3,6 +3,7 @@ channels:
     - conda-forge
     - defaults
 dependencies:
+    - myst-parser
     - sphinx
     - sphinx_rtd_theme
     - sphinx-design

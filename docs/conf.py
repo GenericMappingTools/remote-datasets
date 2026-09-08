@@ -28,7 +28,14 @@ copyright = f'2021-{date.today().year}, {author}'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.autosectionlabel", "sphinx.ext.extlinks", "sphinx_design"]
+extensions = [
+    "myst_parser",
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.extlinks",
+    "sphinx_design",
+]
+# MyST Markdown extensions ("colon_fence" allows ::: fences for nested directives)
+myst_enable_extensions = ["colon_fence"]
 # default language to highlight source code
 highlight_language = 'bash'
 pygments_style = 'sphinx'

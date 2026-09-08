@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Makes day-night map for docs/earth-daynight.rst
+# Makes day-night map for docs/earth-daynight.md
 gmt begin GMT_earth_daynight jpg
 	gmt set GMT_THEME cookbook GMT_DATA_SERVER candidate
     gmt grdmath -Rd -I10m -r $(gmt solar -C -o0:1 -I+d2000-06-22T24:00+z-10) 2 DAYNIGHT = w.grd

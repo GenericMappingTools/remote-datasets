@@ -7,26 +7,19 @@ for the remote datasets on the GMT server as well as some test scripts. The test
 scripts assume that the data files have been placed on the host server.  If data
 sets are still in pre-release mode make sure you set GMT_DATA_SERVER to candidate.
 
-## Building the site
+## Maintenance
 
-Run:
+Building the site:
 
-    cd scripts
-    make docs
+    cd docs
+    make html
 
-## Updating static images used by docs
-
-Run:
+Updating static images used by docs:
 
     cd scripts
-    bash GMT_earth_age.sh
-    bash GMT_earth_daynight.sh
-    bash GMT_earth_maps.sh
-    bash GMT_earth_mask.sh
-    bash GMT_earth_dist.sh
-    bash GMT_planet_relief.sh
+    make update
 
-## Run all test scripts
+Run all test scripts:
 
     cd scripts
     make all-tests

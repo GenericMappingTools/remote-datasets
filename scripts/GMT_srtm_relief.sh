@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 gmt begin GMT_srtm_relief jpg
 	gmt set GMT_THEME cookbook GMT_DATA_SERVER candidate
 	gmt grdclip @earth_relief_10m -Gearth_relief.nc -Sb0/NaN -R-180/180/-60/60
